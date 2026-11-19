@@ -19,7 +19,7 @@ export default defineConfig(async ({ command, mode }) => {
 
   if (command === "build") {
     const { nitro } = await import("nitro/vite");
-    plugins.push(nitro({ preset: "cloudflare-module" }));
+    plugins.push(nitro({ preset: "cloudflare-module", output: { dir: "dist" } }));
   }
 
   plugins.push(viteReact());
