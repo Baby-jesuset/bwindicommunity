@@ -74,6 +74,9 @@ If a fact, photograph or figure changes, update the corresponding entry in these
 
 ## Deploying
 
-`bun run build` produces a Nitro server bundle in `.output/` configured for Cloudflare. Deploy it with Wrangler, or point another Nitro preset at the same build by adjusting `vite.config.ts`.
+`bun run build` produces a Nitro server bundle. The preset switches automatically:
 
-Remember to configure the Supabase environment variables in the hosting dashboard.
+- **Vercel**: with `VERCEL=1` in the build environment (Vercel sets this itself), the build emits `.vercel/output` using Nitro's `vercel` preset. Import the repo in Vercel and leave the framework preset on **Other**; `vercel.json` supplies the install and build commands.
+- **Anywhere else**: the build targets Cloudflare Workers/Pages (`.output/`). Deploy it with Wrangler, or set a different Nitro preset in `vite.config.ts`.
+
+Configure the Supabase environment variables in the hosting dashboard for either target. `VITE_`-prefixed values are read at build time, so they must be present before the build runs.

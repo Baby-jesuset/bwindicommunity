@@ -19,7 +19,10 @@ export default defineConfig(async ({ command, mode }) => {
 
   if (command === "build") {
     const { nitro } = await import("nitro/vite");
-    plugins.push(nitro({ preset: "cloudflare-module", output: { dir: "dist" } }));
+    // Vercel sets VERCEL=1 during builds and reads the Build Output API
+    // directory; everywhere else the bundle targets Cloudflare.
+    const preset = process.env["VERCEL"] ? "vercel" : "cloudflare-module";
+    plugins.push(nitro({ preset }));
   }
 
   plugins.push(viteReact());
