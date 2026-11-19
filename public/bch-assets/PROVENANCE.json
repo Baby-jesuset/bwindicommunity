@@ -1,0 +1,350 @@
+[
+  {
+    "source": "https://www.bwindihospital.com/images/BCH%20logo.png",
+    "url": "/bch-assets/images/images-BCH-logo.png",
+    "size": null,
+    "sha256": "d3f67971180813843fb951148b9e7cbf890a7d35de80e5ce3cf081872aa7c53e"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/default_image.PNG",
+    "url": "/bch-assets/images/slider-images-default_image.PNG",
+    "size": null,
+    "sha256": "acdcaf3d2e01dea764f83e50a69b6e30f34c4ec4c51c3c0677db111f40fb2c85"
+  },
+  {
+    "source": "https://www.bwindihospital.com/images/Logo-College.JPG",
+    "url": "/bch-assets/images/images-Logo-College.JPG",
+    "size": null,
+    "sha256": "13d643c81de68a61eea4e637dfe070d548e83ce9229a1d2f6d9ad534fe028b0d"
+  },
+  {
+    "source": "https://www.bwindihospital.com/images/nursing.jpg",
+    "url": "/bch-assets/images/images-nursing.jpg",
+    "size": null,
+    "sha256": "bf49f38429bdade3f20028c7c17b67ddcec2a3c316f9fb441d3bdcfc09763649"
+  },
+  {
+    "source": "https://www.bwindihospital.com/images/Bwindi%20guest%20house.png",
+    "url": "/bch-assets/images/images-Bwindi-guest-house.png",
+    "size": null,
+    "sha256": "1e802a02a489b9b4f070bbecf786ae73bf1c0a59dfebd93fe2fff71b9091a8a5"
+  },
+  {
+    "source": "https://www.bwindihospital.com/images/Aerolink_Uganda_logo.svg.png",
+    "url": "/bch-assets/images/images-Aerolink_Uganda_logo.svg.png",
+    "size": null,
+    "sha256": "6d8e9319099a1f57bc0e35b6f9acece26b019d5e5e3869fe462b1d2b618c0515"
+  },
+  {
+    "source": "https://www.bwindihospital.com/images/now-hiring.jpg",
+    "url": "/bch-assets/images/images-now-hiring.jpg",
+    "size": null,
+    "sha256": "d9e00093d73852495c491dde6056373c89879cd1e2651918a204d00bd0bf6923"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/Maternity-and-Family-banner.jpg",
+    "url": "/bch-assets/images/images-Maternity-and-Family-banner.jpg",
+    "size": null,
+    "sha256": "45a572655838787678159c9a1b126a37ecdd1798c16cb35f1483255cc11e4fa0"
+  },
+  {
+    "source": "https://www.bwindihospital.com/adverts/Executive-Director-Batwa-Development-Programme-Job-Ad-2026-6.pdf",
+    "url": "/bch-assets/documents/adverts/Executive-Director-Batwa-Development-Programme-Job-Ad-2026-6.pdf",
+    "size": null,
+    "sha256": "c7d28b194c5baaddb33b90e6461f24fb8c2955571dc35ffa847ac16c754ba898"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/15th-BCH-annual-report.pdf",
+    "url": "/bch-assets/documents/annual-reports/15th-BCH-annual-report.pdf",
+    "size": null,
+    "sha256": "9976c1e1bc7074f3da207dc20e3e4aec3d36df0ec06266ba88bacba1ce7de8bb"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/A-COMPARATIVE-STUDY-OF-HIV.pdf",
+    "url": "/bch-assets/documents/annual-reports/A-COMPARATIVE-STUDY-OF-HIV.pdf",
+    "size": null,
+    "sha256": "09347f27cc2fe84d1f76a4abaa86df4fc014018de114e9001674c5a8a7243ff0"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/Audited-Financial-Statement-end-30th-June-2015.pdf",
+    "url": "/bch-assets/documents/annual-reports/Audited-Financial-Statement-end-30th-June-2015.pdf",
+    "size": null,
+    "sha256": "5d56927a874d1242e0a372bc95be931878877f0b87682aaa0b05a79d4b25970d"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/14th_BCH_annual_report.pdf",
+    "url": "/bch-assets/documents/annual-reports/14th_BCH_annual_report.pdf",
+    "size": 9592094,
+    "sha256": "4acc6c66598c38512fad4eac5f5c41c4bc4fdce28aa0ee709af8eeac4beff45e"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/16th%20Annual%20Report%20final.pdf",
+    "url": "/bch-assets/documents/annual-reports/16th-Annual-Report-final.pdf",
+    "size": 14199201,
+    "sha256": "8da26dd3ee8fa577f4798fb602f40d60c2935b152144b907b3e767b8c0fae8c2"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/Annual%20report%202013-2014.pdf",
+    "url": "/bch-assets/documents/annual-reports/Annual-report-2013-2014.pdf",
+    "size": 11255583,
+    "sha256": "af75d609b6c330ee853c2385e4a514bfb9a1f68a3fa119243b34379a16742c21"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH%2018th%20annual%20report.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-18th-annual-report.pdf",
+    "size": 9200735,
+    "sha256": "7722b667a6901f8d2374547230641c55ab5b61838ef80e7b70847352ef8ba8df"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH%20STRATEGIC%20PLAN%202014-2019.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-STRATEGIC-PLAN-2014-2019.pdf",
+    "size": null,
+    "sha256": "4fd253cad7d5780c89cfde2785d11aad24ec5fdce7beb65c39c5a70c1e7cecc7"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH%2020th%20annual%20report.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-20th-annual-report.pdf",
+    "size": 15434658,
+    "sha256": "0678d2eb118b3302eb9f2eb29462d6105dfab7df2976d081ab996a9d39caa505"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-SURVEY-REPORT-2009.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-SURVEY-REPORT-2009.pdf",
+    "size": null,
+    "sha256": "4492236f2b79dcf6c3b4e04e9a1935e33d21e0d4ad191797be0a77b2b08da895"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-annual-report-2008-2009.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-annual-report-2008-2009.pdf",
+    "size": null,
+    "sha256": "158395cf6ff20169f55f6f2240a7d0997155ddc96d85e508f4974d3e205afe93"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-annual-report-2009-2010.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-annual-report-2009-2010.pdf",
+    "size": null,
+    "sha256": "1402635c9d12526700792c6f0f5464bf17b1f7430070cc7ec81da36c4571032d"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-annual-report-2010-2011.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-annual-report-2010-2011.pdf",
+    "size": null,
+    "sha256": "b1f23099817f61798ff2cc3a0bc29b43826b76c26962256eb9e58983b116b167"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH%2021st-annual%20report.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-21st-annual-report.pdf",
+    "size": 12919969,
+    "sha256": "d5e799227fbce48c150f537efb4e853c397d9d707cbd1503569f95f9f3ad5dcf"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH%2022nd%20annual%20report.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-22nd-annual-report.pdf",
+    "size": 16068814,
+    "sha256": "f688e6a34f0dc868bc6a9ba5ac5a3563fe3d7e16181b3a9d635e7f347309e9a1"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-audited-accounts-2007-2008.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-audited-accounts-2007-2008.pdf",
+    "size": null,
+    "sha256": "7e3f767624a3f3e3c24d9b40d3e4f8d6139abd180d1ba468b9c1f1979a19c63d"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-audited-accounts-2008-2009.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-audited-accounts-2008-2009.pdf",
+    "size": null,
+    "sha256": "12bb42a070e7f295cf3692df3a27abf590500a1d4c887f0b179e3098805f6781"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-audited-accounts-2009-2010.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-audited-accounts-2009-2010.pdf",
+    "size": null,
+    "sha256": "bf0a0a90a5d539d36a0d16c98ebf4d9fc4fc79d9a916b0e258f29b56263e3517"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-audited-accounts-2010-2011.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-audited-accounts-2010-2011.pdf",
+    "size": null,
+    "sha256": "2adaa2ec1760efaec8a6fd0a721a6cbe36cc165968eabef30d1547210a005242"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-audited-accounts-2011-2012.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-audited-accounts-2011-2012.pdf",
+    "size": null,
+    "sha256": "6a4ff1282ae92e16bb3d14c7c26f937bf60a00f5faee98f562b6e58ab89fa570"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-audited-accounts-2012-2013.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-audited-accounts-2012-2013.pdf",
+    "size": null,
+    "sha256": "36c73b494b7da6c3d69d56e24ddaba75154ac2be043328e0cbc66d46382e3d21"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-budget-2009-2010.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-budget-2009-2010.pdf",
+    "size": null,
+    "sha256": "b5b1e95c473d4ba1ef5a00a9c0dada88fbf2531c61b468c334972cb3b01c4c96"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-community-survey-2008.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-community-survey-2008.pdf",
+    "size": null,
+    "sha256": "dc703f035e328cf29e8c681efe28100d58983928dc61a37a7656d6cd125be65b"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-17th-annual-report-final%20version.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-17th-annual-report-final-version.pdf",
+    "size": 9568801,
+    "sha256": "7dd73e592d1e1ee9dddcb3994fc5d1397a7a7d5fcc288f33a5266881d0b3701f"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-strategic-plan-2008-2011.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-strategic-plan-2008-2011.pdf",
+    "size": 559300,
+    "sha256": "1d05539d4ece8862e6dbc3497f15a4c3271b132e7126ecbcd1ab808d69d3daef"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BWINDI-COMMUNITY-HOSPITAL-STRATEGIC-PLAN-2011.pdf",
+    "url": "/bch-assets/documents/annual-reports/BWINDI-COMMUNITY-HOSPITAL-STRATEGIC-PLAN-2011.pdf",
+    "size": 907580,
+    "sha256": "93e2a85344f5e3e22c21f725517449668b6dab2406bfb3e55d6b5ecdcf143c1a"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/Budget%202013-2014.pdf",
+    "url": "/bch-assets/documents/annual-reports/Budget-2013-2014.pdf",
+    "size": 164007,
+    "sha256": "4adf6b685bf0fd5b8039286dc2afd1c60e0a1f70faecd4896927f927d0e74c4b"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/Budget%202014-2015.pdf",
+    "url": "/bch-assets/documents/annual-reports/Budget-2014-2015.pdf",
+    "size": 161397,
+    "sha256": "06f247e7fb46f6ed2ca1ea4f7f9ce3a244108dddd55c4f7635716365e9090cb1"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/Budget-2010-2011.pdf",
+    "url": "/bch-assets/documents/annual-reports/Budget-2010-2011.pdf",
+    "size": 25780,
+    "sha256": "e04457d0219a09471b23a6dfe497b2ed65c9a92f705579acdfe4bd8e186c905f"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/Budget-2011-12.pdf",
+    "url": "/bch-assets/documents/annual-reports/Budget-2011-12.pdf",
+    "size": 44263,
+    "sha256": "7e3ba4b7f3a2a08799ed3f94c918d94522f751c54a05dc62f663fe7a3a9432e0"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/Budget-2012-13.pdf",
+    "url": "/bch-assets/documents/annual-reports/Budget-2012-13.pdf",
+    "size": 160469,
+    "sha256": "ed662c86d033f6017686260bd99852e25a4ce5dd70db80393069a0017cefd879"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-annual-report-2011-2012.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-annual-report-2011-2012.pdf",
+    "size": 9121603,
+    "sha256": "dce1aa1b2561b293c95b320e1a07b6d8cfa3528d0a910e096a21cf7ae804f908"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/Volunteer_form_Offline.docx",
+    "url": "/bch-assets/documents/annual-reports/Volunteer_form_Offline.docx",
+    "size": null,
+    "sha256": "957fe59dd55d15224c70438324aa09b1f0f61c5443779ac181f1736b3da0dbc3"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/images/Bwindi%20Community%20Hospital%20Research%20Proposal%20form.docx",
+    "url": "/bch-assets/documents/forms/Bwindi-Community-Hospital-Research-Proposal-form.docx",
+    "size": null,
+    "sha256": "b011564703fbcca3e59b181adc7ccaee7797891bcb012f4faaec9f46bb528371"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/downloads/2020%20Newsletter%20March%20Final(1).pdf",
+    "url": "/bch-assets/documents/newsletters/2020-Newsletter-March-Final-1-.pdf",
+    "size": null,
+    "sha256": "499eec351f2a90161e49c8d563ff9c8f36bb6b6688376f9a5634f8247270df35"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/downloads/March%202023.pdf",
+    "url": "/bch-assets/documents/newsletters/March-2023.pdf",
+    "size": null,
+    "sha256": "19c9906801d7afb4a63f14a6a0ee274d1dfb3754eb75a7407dde2439f2513a9d"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/downloads/November%202020%20Newsletter.pdf",
+    "url": "/bch-assets/documents/newsletters/November-2020-Newsletter.pdf",
+    "size": null,
+    "sha256": "be576209460bab446cc89977b5e5cf897aecc1d079dfb535929068847e773d50"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/downloads/latest-newsletter.pdf",
+    "url": "/bch-assets/documents/newsletters/latest-newsletter.pdf",
+    "size": null,
+    "sha256": "89a5c15ebf9b12486f072b5fb30b559970c31cd4f2862ee7f94e8c5abf41c86b"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/wish_files/Article%20for%20BCH%20(Forat).pdf",
+    "url": "/bch-assets/documents/wish-lists/Article-for-BCH-Forat-.pdf",
+    "size": null,
+    "sha256": "5cb8d2b4e4569a6648afe20bea0bebdcf802775ecb9b8b745da186c954d0be1c"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/wish_files/BCH%20Useful-items-to-bring.pdf",
+    "url": "/bch-assets/documents/wish-lists/BCH-Useful-items-to-bring.pdf",
+    "size": null,
+    "sha256": "6cabd9ccf70030672179e50e0e590ae435db9fc3e9fb500fe75655213c3a8ecc"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/wish_files/Bwindi_General_Ward_and_Dining-converted.pdf",
+    "url": "/bch-assets/documents/wish-lists/Bwindi_General_Ward_and_Dining-converted.pdf",
+    "size": null,
+    "sha256": "94a493b4842537a07901e3c2a67fd86202a41c9ec7efa36bac4dd3e9596c784a"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/wish_files/Esther%20Baird.pdf",
+    "url": "/bch-assets/documents/wish-lists/Esther-Baird.pdf",
+    "size": null,
+    "sha256": "d4f1e47054d9e365e5b1c31f7657236f307b30be4f005650d4553cb21c1de925"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/wish_files/LABORATORY%20WISH%20LIST%202025-2026.pdf",
+    "url": "/bch-assets/documents/wish-lists/LABORATORY-WISH-LIST-2025-2026.pdf",
+    "size": null,
+    "sha256": "e9f2a22fb04b67edf806e475e9e0ee02475442534515478c77b8d27b5258cef5"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/wish_files/WISH%20LIST%20FOR%20DIAGNOSTICS.pdf",
+    "url": "/bch-assets/documents/wish-lists/WISH-LIST-FOR-DIAGNOSTICS.pdf",
+    "size": null,
+    "sha256": "3c97363e9a687f9c1272b66727436b0ca14c6fe29bfe3a250140644ce9335b5d"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/wish_files/Wish%20list%20for%20Child%20Health%20.pdf",
+    "url": "/bch-assets/documents/wish-lists/Wish-list-for-Child-Health-.pdf",
+    "size": null,
+    "sha256": "276f52ca7ae0156519a48d0ff79e23d2340d3f7707d23b741cf38b3072472197"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/wish_files/Wish-list-AIP-2016.pdf",
+    "url": "/bch-assets/documents/wish-lists/Wish-list-AIP-2016.pdf",
+    "size": null,
+    "sha256": "005cbc311a4ed90b90c33b9326a3a9a87d13df893e39229f0ff6afd19db6f733"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH-annual-report-2012-2013.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH-annual-report-2012-2013.pdf",
+    "size": 7703298,
+    "sha256": "eedc1cceb4e34158864eb25ee2aad3a2632240ce784678b90c4e76bfbd6924b2"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/BCH19-th-annual-report.pdf",
+    "url": "/bch-assets/documents/annual-reports/BCH19-th-annual-report.pdf",
+    "size": 9517833,
+    "sha256": "cf1b3bf14d22da5d81c01014a92e9d2fb59147fdbbb8228c1e903bfa694913dd"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/annual_reports/Bwindi%20community%20Hospital%20International%20Volunteer's%20policy%202025.pdf",
+    "url": "/bch-assets/documents/annual-reports/Bwindi-community-Hospital-International-Volunteer-s-policy-2025.pdf",
+    "size": 5161646,
+    "sha256": "ecda0e5696a636acb2f136848dfe2842bf5b2fef5bd4f6d1082be33fffcb7470"
+  }
+]

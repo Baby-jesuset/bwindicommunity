@@ -1,0 +1,630 @@
+[
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/images/David.jpg",
+    "url": "/images/bch/06fd17f1-David.jpg",
+    "pointer": "src/assets/bch-originals/David.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/images/Nathan.jpg",
+    "url": "/images/bch/f52debcf-Nathan.jpg",
+    "pointer": "src/assets/bch-originals/Nathan.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/images/Research.JPG",
+    "url": "/images/bch/8c074c01-Research.JPG",
+    "pointer": "src/assets/bch-originals/Research.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/images/core%20values%205.jpg",
+    "url": "/images/bch/804b88b8-core-values-5.jpg",
+    "pointer": "src/assets/bch-originals/core-values-5.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/images/midwives_house.jpg",
+    "url": "/images/bch/0e668449-midwives_house.jpg",
+    "pointer": "src/assets/bch-originals/midwives_house.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/images/organogram%202026.png",
+    "url": "/images/bch/4213c35a-organogram-2026.png",
+    "pointer": "src/assets/bch-originals/organogram-2026.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/images/psa.jpeg",
+    "url": "/images/bch/82f69145-psa.jpeg",
+    "pointer": "src/assets/bch-originals/psa.jpeg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/images/research.png",
+    "url": "/images/bch/dfd11a00-research.png",
+    "pointer": "src/assets/bch-originals/research.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/images/seniors.jpg",
+    "url": "/images/bch/de0b08c4-seniors.jpg",
+    "pointer": "src/assets/bch-originals/seniors.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/about_us/images/volunteering-banner.jpg",
+    "url": "/images/bch/07cab704-volunteering-banner.jpg",
+    "pointer": "src/assets/bch-originals/volunteering-banner.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/contact_us/staff/Aguti.jpg",
+    "url": "/images/bch/8725e0b2-Aguti.jpg",
+    "pointer": "src/assets/bch-originals/Aguti.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/contact_us/staff/Aryatunga-Brian.jpg",
+    "url": "/images/bch/64ed215d-Aryatunga-Brian.jpg",
+    "pointer": "src/assets/bch-originals/Aryatunga-Brian.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/contact_us/staff/Derrick%20Nkuuhe.jpeg",
+    "url": "/images/bch/e18c19be-Derrick-Nkuuhe.jpeg",
+    "pointer": "src/assets/bch-originals/Derrick-Nkuuhe.jpeg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/contact_us/staff/Dr-Scott.jpg",
+    "url": "/images/bch/14c5107e-Dr-Scott.jpg",
+    "pointer": "src/assets/bch-originals/Dr-Scott.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/contact_us/staff/Dr.Birungi-Mutahunga.jpg",
+    "url": "/images/bch/30e33020-Dr.Birungi-Mutahunga.jpg",
+    "pointer": "src/assets/bch-originals/Dr.Birungi-Mutahunga.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/contact_us/staff/Joram.jpg",
+    "url": "/images/bch/df84af5c-Joram.jpg",
+    "pointer": "src/assets/bch-originals/Joram.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/contact_us/staff/Kuule-Yusufu.jpg",
+    "url": "/images/bch/247f2541-Kuule-Yusufu.jpg",
+    "pointer": "src/assets/bch-originals/Kuule-Yusufu.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/contact_us/staff/Onesmus%20K.jpg",
+    "url": "/images/bch/f9be2b7f-Onesmus-K.jpg",
+    "pointer": "src/assets/bch-originals/Onesmus-K.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/contact_us/staff/Robert%20Kamugisha.jpg",
+    "url": "/images/bch/2fb46ef1-Robert-Kamugisha.jpg",
+    "pointer": "src/assets/bch-originals/Robert-Kamugisha.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/contact_us/staff/barnabas.jpg",
+    "url": "/images/bch/ae4bb154-barnabas.jpg",
+    "pointer": "src/assets/bch-originals/barnabas.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/contact_us/staff/danieljamison.jpg",
+    "url": "/images/bch/3e1b4d28-danieljamison.jpg",
+    "pointer": "src/assets/bch-originals/danieljamison.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/contact_us/staff/patrick.PNG",
+    "url": "/images/bch/e495421a-patrick.PNG",
+    "pointer": "src/assets/bch-originals/patrick.PNG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/2048sq_PORTFOLIO_111-438.jpg",
+    "url": "/images/bch/17298fc7-2048sq_PORTFOLIO_111-438.jpg",
+    "pointer": "src/assets/bch-originals/2048sq_PORTFOLIO_111-438.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/Artististic_Impression_of_the_Medical_Ward.png",
+    "url": "/images/bch/44512081-Artististic_Impression_of_the_Medical_Ward.png",
+    "pointer": "src/assets/bch-originals/Artististic_Impression_of_the_Medical_Ward.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/C-Section.jpg",
+    "url": "/images/bch/604d4287-C-Section.jpg",
+    "pointer": "src/assets/bch-originals/C-Section.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_0194.JPG",
+    "url": "/images/bch/772fe759-IMG_0194.JPG",
+    "pointer": "src/assets/bch-originals/IMG_0194.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_4723.JPG",
+    "url": "/images/bch/28e1ed8c-IMG_4723.JPG",
+    "pointer": "src/assets/bch-originals/IMG_4723.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_4736.JPG",
+    "url": "/images/bch/44cac1ee-IMG_4736.JPG",
+    "pointer": "src/assets/bch-originals/IMG_4736.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_4742.JPG",
+    "url": "/images/bch/42c2055c-IMG_4742.JPG",
+    "pointer": "src/assets/bch-originals/IMG_4742.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_4750.JPG",
+    "url": "/images/bch/d7aae187-IMG_4750.JPG",
+    "pointer": "src/assets/bch-originals/IMG_4750.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_4762.JPG",
+    "url": "/images/bch/843bf6fd-IMG_4762.JPG",
+    "pointer": "src/assets/bch-originals/IMG_4762.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_4815.JPG",
+    "url": "/images/bch/b834c414-IMG_4815.JPG",
+    "pointer": "src/assets/bch-originals/IMG_4815.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_4873.JPG",
+    "url": "/images/bch/c085d036-IMG_4873.JPG",
+    "pointer": "src/assets/bch-originals/IMG_4873.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_4882.JPG",
+    "url": "/images/bch/40b302bf-IMG_4882.JPG",
+    "pointer": "src/assets/bch-originals/IMG_4882.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_4893.JPG",
+    "url": "/images/bch/11d935dd-IMG_4893.JPG",
+    "pointer": "src/assets/bch-originals/IMG_4893.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_4918.JPG",
+    "url": "/images/bch/0ca94b0f-IMG_4918.JPG",
+    "pointer": "src/assets/bch-originals/IMG_4918.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_4924.JPG",
+    "url": "/images/bch/08232d5c-IMG_4924.JPG",
+    "pointer": "src/assets/bch-originals/IMG_4924.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_4957.JPG",
+    "url": "/images/bch/c7fa8a3c-IMG_4957.JPG",
+    "pointer": "src/assets/bch-originals/IMG_4957.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_4966.JPG",
+    "url": "/images/bch/4c72d5c1-IMG_4966.JPG",
+    "pointer": "src/assets/bch-originals/IMG_4966.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_5025.JPG",
+    "url": "/images/bch/7344b300-IMG_5025.JPG",
+    "pointer": "src/assets/bch-originals/IMG_5025.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_5052.JPG",
+    "url": "/images/bch/d5ca2c70-IMG_5052.JPG",
+    "pointer": "src/assets/bch-originals/IMG_5052.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_8625.JPG",
+    "url": "/images/bch/d685e1d1-IMG_8625.JPG",
+    "pointer": "src/assets/bch-originals/IMG_8625.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/IMG_9900.JPG",
+    "url": "/images/bch/5e9e644d-IMG_9900.JPG",
+    "pointer": "src/assets/bch-originals/IMG_9900.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/Batwa%20nurses.jpg",
+    "url": "/images/bch/0bdaf713-Batwa-nurses.jpg",
+    "pointer": "src/assets/bch-originals/Batwa-nurses.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/Batwa%20woodworkerss.jpg",
+    "url": "/images/bch/b31ab419-Batwa-woodworkerss.jpg",
+    "pointer": "src/assets/bch-originals/Batwa-woodworkerss.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/Bwindi%20Hospital%20NICU.png",
+    "url": "/images/bch/5446ee52-Bwindi-Hospital-NICU.png",
+    "pointer": "src/assets/bch-originals/Bwindi-Hospital-NICU.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/Bwindi%20hospital%20HIHA%20awards.jpg",
+    "url": "/images/bch/ed6f24e7-Bwindi-hospital-HIHA-awards.jpg",
+    "pointer": "src/assets/bch-originals/Bwindi-hospital-HIHA-awards.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/Bwindi,GVC,%20&%20UWA.jpg",
+    "url": "/images/bch/b97d357c-Bwindi-GVC----UWA.jpg",
+    "pointer": "src/assets/bch-originals/Bwindi-GVC----UWA.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/David%20Brubaker.jpg",
+    "url": "/images/bch/ec41bec0-David-Brubaker.jpg",
+    "pointer": "src/assets/bch-originals/David-Brubaker.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/Dr%20Asaph%20and%20Seth.jpg",
+    "url": "/images/bch/703e56f4-Dr-Asaph-and-Seth.jpg",
+    "pointer": "src/assets/bch-originals/Dr-Asaph-and-Seth.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/EMR%20training.jpg",
+    "url": "/images/bch/b9af2f40-EMR-training.jpg",
+    "pointer": "src/assets/bch-originals/EMR-training.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/Hope_Alliance.jpeg",
+    "url": "/images/bch/ad165a0e-Hope_Alliance.jpeg",
+    "pointer": "src/assets/bch-originals/Hope_Alliance.jpeg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/Kamara%20Daniel.jpg",
+    "url": "/images/bch/6c3c3699-Kamara-Daniel.jpg",
+    "pointer": "src/assets/bch-originals/Kamara-Daniel.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/MamaBaby%20Voucher.JPG",
+    "url": "/images/bch/ed280147-MamaBaby-Voucher.JPG",
+    "pointer": "src/assets/bch-originals/MamaBaby-Voucher.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/Moonlight.jpeg",
+    "url": "/images/bch/a3687567-Moonlight.jpeg",
+    "pointer": "src/assets/bch-originals/Moonlight.jpeg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/Nutrition%20demonstration.jpg",
+    "url": "/images/bch/dcdb5a39-Nutrition-demonstration.jpg",
+    "pointer": "src/assets/bch-originals/Nutrition-demonstration.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/OneHealth-Bwindi-intervention.png",
+    "url": "/images/bch/67a1b0c6-OneHealth-Bwindi-intervention.png",
+    "pointer": "src/assets/bch-originals/OneHealth-Bwindi-intervention.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/Tabitha%20and%20her%20parents.jpg",
+    "url": "/images/bch/a8293baa-Tabitha-and-her-parents.jpg",
+    "pointer": "src/assets/bch-originals/Tabitha-and-her-parents.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/anita.jpeg",
+    "url": "/images/bch/0126a69c-anita.jpeg",
+    "pointer": "src/assets/bch-originals/anita.jpeg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/batwa.png",
+    "url": "/images/bch/42e95062-batwa.png",
+    "pointer": "src/assets/bch-originals/batwa.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/bwindi%20dental%20commissioning.png",
+    "url": "/images/bch/8b23544a-bwindi-dental-commissioning.png",
+    "pointer": "src/assets/bch-originals/bwindi-dental-commissioning.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/bwindihospitalgraduation.jpg",
+    "url": "/images/bch/49599fa7-bwindihospitalgraduation.jpg",
+    "pointer": "src/assets/bch-originals/bwindihospitalgraduation.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/den1.png",
+    "url": "/images/bch/170d21ee-den1.png",
+    "pointer": "src/assets/bch-originals/den1.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/dent2.png",
+    "url": "/images/bch/8ce4a011-dent2.png",
+    "pointer": "src/assets/bch-originals/dent2.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/dental.jpg",
+    "url": "/images/bch/99e37ada-dental.jpg",
+    "pointer": "src/assets/bch-originals/dental.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/eeidi%20presentation.jpg",
+    "url": "/images/bch/4ece3d57-eeidi-presentation.jpg",
+    "pointer": "src/assets/bch-originals/eeidi-presentation.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/fistula.JPG",
+    "url": "/images/bch/8ab8bd71-fistula.JPG",
+    "pointer": "src/assets/bch-originals/fistula.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/grad.png",
+    "url": "/images/bch/33956e1d-grad.png",
+    "pointer": "src/assets/bch-originals/grad.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/labb.png",
+    "url": "/images/bch/54f89ff9-labb.png",
+    "pointer": "src/assets/bch-originals/labb.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/mann.png",
+    "url": "/images/bch/a5d21fe6-mann.png",
+    "pointer": "src/assets/bch-originals/mann.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/patient%20education.jpg",
+    "url": "/images/bch/dc5a633b-patient-education.jpg",
+    "pointer": "src/assets/bch-originals/patient-education.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/skilling.JPG",
+    "url": "/images/bch/6f5cb846-skilling.JPG",
+    "pointer": "src/assets/bch-originals/skilling.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/media/news/news_images/urogyn%20fellows%20and%20Dr.%20Verena's%20team.jpg",
+    "url": "/images/bch/7bbdc35d-urogyn-fellows-and-Dr.-Verena-s-team.jpg",
+    "pointer": "src/assets/bch-originals/urogyn-fellows-and-Dr.-Verena-s-team.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/Batwa-&-Byumba-text.jpg",
+    "url": "/images/bch/53bd5b41-Batwa---Byumba-text.jpg",
+    "pointer": "src/assets/bch-originals/Batwa---Byumba-text.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/Community%20outreach.jpg",
+    "url": "/images/bch/536c0be6-Community-outreach.jpg",
+    "pointer": "src/assets/bch-originals/Community-outreach.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/IMG_7136.JPG",
+    "url": "/images/bch/54949020-IMG_7136.JPG",
+    "pointer": "src/assets/bch-originals/IMG_7136.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/Patients%20waiting%20in%20a%20cue%20to%20be%20seen%20at%20Byumba%20satelite%20clinic.jpg",
+    "url": "/images/bch/2f5aad7d-Patients-waiting-in-a-cue-to-be-seen-at-Byumba-satelite-clinic.jpg",
+    "pointer": "src/assets/bch-originals/Patients-waiting-in-a-cue-to-be-seen-at-Byumba-satelite-clinic.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/Surgery3.jpg",
+    "url": "/images/bch/59e550b2-Surgery3.jpg",
+    "pointer": "src/assets/bch-originals/Surgery3.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/aip.JPG",
+    "url": "/images/bch/5ecb6289-aip.JPG",
+    "pointer": "src/assets/bch-originals/aip.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/antenatal%20scan.jpg",
+    "url": "/images/bch/468074de-antenatal-scan.jpg",
+    "pointer": "src/assets/bch-originals/antenatal-scan.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/cancer%20screening.jpg",
+    "url": "/images/bch/d4ba3ba9-cancer-screening.jpg",
+    "pointer": "src/assets/bch-originals/cancer-screening.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/chaple.jpg",
+    "url": "/images/bch/4343ac5e-chaple.jpg",
+    "pointer": "src/assets/bch-originals/chaple.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/children.jpg",
+    "url": "/images/bch/fdd8033d-children.jpg",
+    "pointer": "src/assets/bch-originals/children.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/dental.jpg",
+    "url": "/images/bch/99e37ada-dental.jpg",
+    "pointer": "src/assets/bch-originals/dental.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/equal.jpg",
+    "url": "/images/bch/6d63a2f4-equal.jpg",
+    "pointer": "src/assets/bch-originals/equal.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/fp.jpg",
+    "url": "/images/bch/53fb3a87-fp.jpg",
+    "pointer": "src/assets/bch-originals/fp.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/guesthouse.JPG",
+    "url": "/images/bch/ca8e0908-guesthouse.JPG",
+    "pointer": "src/assets/bch-originals/guesthouse.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/lab.JPG",
+    "url": "/images/bch/069fcadf-lab.JPG",
+    "pointer": "src/assets/bch-originals/lab.JPG.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/mental.jpg",
+    "url": "/images/bch/d94b0aa1-mental.jpg",
+    "pointer": "src/assets/bch-originals/mental.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/neonate.jpg",
+    "url": "/images/bch/26e567d0-neonate.jpg",
+    "pointer": "src/assets/bch-originals/neonate.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/triage.jpg",
+    "url": "/images/bch/dbda8846-triage.jpg",
+    "pointer": "src/assets/bch-originals/triage.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/images/Flag%20US.jpg",
+    "url": "/images/bch/84ae7b44-Flag-US.jpg",
+    "pointer": "src/assets/bch-originals/Flag-US.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/images/German.png",
+    "url": "/images/bch/6b35d314-German.png",
+    "pointer": "src/assets/bch-originals/German.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/images/UK-flag.png",
+    "url": "/images/bch/dacc15c2-UK-flag.png",
+    "pointer": "src/assets/bch-originals/UK-flag.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/images/What-we-need-banner.jpg",
+    "url": "/images/bch/4b71e0b4-What-we-need-banner.jpg",
+    "pointer": "src/assets/bch-originals/What-we-need-banner.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/images/africomed.jpg",
+    "url": "/images/bch/3f58b9ca-africomed.jpg",
+    "pointer": "src/assets/bch-originals/africomed.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/images/bch-coyle-donors-sidebar.jpg",
+    "url": "/images/bch/61f9f83b-bch-coyle-donors-sidebar.jpg",
+    "pointer": "src/assets/bch-originals/bch-coyle-donors-sidebar.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/images/ch-banner.jpg",
+    "url": "/images/bch/212500b9-ch-banner.jpg",
+    "pointer": "src/assets/bch-originals/ch-banner.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/images/donor-equipment.jpg",
+    "url": "/images/bch/f0e61809-donor-equipment.jpg",
+    "pointer": "src/assets/bch-originals/donor-equipment.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/images/donors-partners-body-text.jpg",
+    "url": "/images/bch/9465a779-donors-partners-body-text.jpg",
+    "pointer": "src/assets/bch-originals/donors-partners-body-text.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/images/finance_graph2.png",
+    "url": "/images/bch/ad34608f-finance_graph2.png",
+    "pointer": "src/assets/bch-originals/finance_graph2.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/support_us/images/make-donation-banner.jpg",
+    "url": "/images/bch/9070619b-make-donation-banner.jpg",
+    "pointer": "src/assets/bch-originals/make-donation-banner.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/4thgrad.jpg",
+    "url": "/images/bch/038db4dd-4thgrad.jpg",
+    "pointer": "src/assets/bch-originals/4thgrad.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/commissioning.jpg",
+    "url": "/images/bch/a4848ba9-commissioning.jpg",
+    "pointer": "src/assets/bch-originals/commissioning.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/community1.jpg",
+    "url": "/images/bch/b49fa48a-community1.jpg",
+    "pointer": "src/assets/bch-originals/community1.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/dentvis.jpg",
+    "url": "/images/bch/bc690032-dentvis.jpg",
+    "pointer": "src/assets/bch-originals/dentvis.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/eye.jpg",
+    "url": "/images/bch/31a2426c-eye.jpg",
+    "pointer": "src/assets/bch-originals/eye.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/health-care%20training.jpg",
+    "url": "/images/bch/fd5cdd89-health-care-training.jpg",
+    "pointer": "src/assets/bch-originals/health-care-training.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/icu.jpg",
+    "url": "/images/bch/5e3af2a9-icu.jpg",
+    "pointer": "src/assets/bch-originals/icu.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/lab.jpg",
+    "url": "/images/bch/8888b8c5-lab.jpg",
+    "pointer": "src/assets/bch-originals/lab.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/livelihood.jpg",
+    "url": "/images/bch/fccdefaa-livelihood.jpg",
+    "pointer": "src/assets/bch-originals/livelihood.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/next.png",
+    "url": "/images/bch/ff6718a2-next.png",
+    "pointer": "src/assets/bch-originals/next.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/nicu.jpg",
+    "url": "/images/bch/663ea85b-nicu.jpg",
+    "pointer": "src/assets/bch-originals/nicu.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/ors.jpg",
+    "url": "/images/bch/440b9776-ors.jpg",
+    "pointer": "src/assets/bch-originals/ors.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/prev.png",
+    "url": "/images/bch/93b34380-prev.png",
+    "pointer": "src/assets/bch-originals/prev.png.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/skilling.jpg",
+    "url": "/images/bch/3f721a70-skilling.jpg",
+    "pointer": "src/assets/bch-originals/skilling.jpg.asset.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/images/BCH%20logo.png",
+    "url": "/bch-assets/images/images-BCH-logo.png",
+    "pointer": "public/bch-assets/PROVENANCE.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/slider_images/default_image.PNG",
+    "url": "/bch-assets/images/slider-images-default_image.PNG",
+    "pointer": "public/bch-assets/PROVENANCE.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/images/Logo-College.JPG",
+    "url": "/bch-assets/images/images-Logo-College.JPG",
+    "pointer": "public/bch-assets/PROVENANCE.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/images/nursing.jpg",
+    "url": "/bch-assets/images/images-nursing.jpg",
+    "pointer": "public/bch-assets/PROVENANCE.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/images/Bwindi%20guest%20house.png",
+    "url": "/bch-assets/images/images-Bwindi-guest-house.png",
+    "pointer": "public/bch-assets/PROVENANCE.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/images/Aerolink_Uganda_logo.svg.png",
+    "url": "/bch-assets/images/images-Aerolink_Uganda_logo.svg.png",
+    "pointer": "public/bch-assets/PROVENANCE.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/images/now-hiring.jpg",
+    "url": "/bch-assets/images/images-now-hiring.jpg",
+    "pointer": "public/bch-assets/PROVENANCE.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/services/images/Maternity-and-Family-banner.jpg",
+    "url": "/bch-assets/images/images-Maternity-and-Family-banner.jpg",
+    "pointer": "public/bch-assets/PROVENANCE.json"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/monkey.webp",
+    "url": "/images/bch/a1b2c3d4-monkey.webp"
+  },
+  {
+    "source": "https://www.bwindihospital.com/pages/gallery/gallery_images/monkey_house.webp",
+    "url": "/images/bch/e5f6a7b8-monkey_house.webp"
+  }
+]

@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bwindi Community Hospital</title>
+
+  <!-- PLUGINS CSS STYLE -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="plugins/selectbox/select_option1.css">
+  <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="plugins/flexslider/flexslider.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="plugins/calender/fullcalendar.min.css">
+  <link rel="stylesheet" href="plugins/animate.css">
+  <link rel="stylesheet" href="plugins/pop-up/magnific-popup.css">
+  <link rel="stylesheet" type="text/css" href="plugins/rs-plugin/css/settings.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="plugins/owl-carousel/owl.carousel.css" media="screen">
+
+  <!-- GOOGLE FONT -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,600italic,400italic,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/default.css" id="option_color">
+ <link href="//www.findberry.com/search/css/framebox.css" rel="stylesheet" type="text/css" />
+                                                        <script src="//www.findberry.com/search/js/jquery.min.js" type="text/javascript"></script>
+                                                        <script src="//www.findberry.com/search/js/findberryfx.js" type="text/javascript"></script>
+                                                        <script src="//www.findberry.com/search/js/findberry.framebox.js" type="text/javascript"></script>
+                                                       
+
+</head>    <body class="body-wrapper">
+
+        <div class="main_wrapper">
+
+            
+<header class="header-wrapper">
+    <div class="topbar clearfix">
+        <div class="container">
+            <ul class="topbar-left">
+                <li class="phoneNo"><i class="fa fa-phone"></i>+256(0)392880242</li>
+                <li class="email-id hidden-xs hidden-sm"><i class="fa fa-envelope"></i>
+                    <a>bwindicommunityhospital@gmail.com</a>
+                </li>
+            </ul>    <ul class="topbar-right">
+                <li class="hidden-xs"><a target="_blank" href="https://twitter.com/Bwinditweets"><i class="fa fa-twitter"></i></a></li>
+                <li class="hidden-xs"><a target="_blank" href="https://web.facebook.com/BwindiCommunityHospital/"><i class="fa fa-facebook"></i></a></li>
+                <li class="hidden-xs"><a target="_blank" href="https://www.youtube.com/watch?v=doAMnLoh9rg"><i class="fa fa-youtube-play"></i></a></li>
+                <li class="top-search list-inline">
+                    <a href="#"><i class="fa fa-search"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li>
+                             <form action="//www.findberry.com/search/" method="get" id="sr_iframe">
+                            <span class="input-group">
+                                <input type="hidden" name="wid" value="12498" />
+                                <input type="text" id="sr_searchbox" name="query" class="form-control" placeholder="search">
+                                <button type="submit" id="sr_searchbutton" name="Search" class="btn btn-default commonBtn">Search</button>
+                            </span>
+                             </form>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="header clearfix">
+        <nav class="navbar navbar-main navbar-default">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="header_inner">
+
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand logo clearfix" href="index.php"><img src="images/BCH logo.png" alt="" class="img-responsive" /></a>
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="main-nav">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active">
+                                        <a href="index.php"  role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+
+                                    </li>
+                                    <li class=" dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us</a>
+                                        <ul class="dropdown-menu" style="columns:2;">
+                                            <li><a href="who_we_are.php">Who we are</a></li>
+                                            <li><a href="projects.php">Projects</a></li>
+                                            <li><a href="board.php">Board of governors</a></li>
+                                            <li><a href="annual_reports.php">Annual Report $ finance</a></li>
+                                            <li><a href="jobs.php">Jobs and health Resources</a></li>
+                                            <li><a href="volunteer.php">Volunteers</a></li>
+                                            <li><a href="innovations.php">Innovations </a></li>
+                                            <li><a href="research.php">Research</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class=" dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+
+                                        <ul class="dropdown-menu" style="columns:2;">
+                                            <li><a href="child_health.php?page=children">Child Health</a></li>
+                                            <li><a href="sexual_reproductive_health.php?page=maternity">Sexual & Reproductive Health</a></li>
+                                            <li><a href="surgery.php">Surgery</a></li>
+                                            <li><a href="hiv.php">HIV</a></li>
+                                            <li><a href="community.php?page=community">Community health & batwa</a></li>
+                                            <li><a href="setlite_clinics.php?page=Byumba">Satellite Clinics</a></li>
+                                            <li><a href="opd.php?page=opd_general">Out Patient</a></li>
+                                            <li><a href="aip.php">Adult Inpatient</a></li>
+                                            <li><a href="diagnostics.php">Diagnostics</a></li>
+                                            <li><a href="equality.php">Equality Health bwindi</a></li>
+                                            <li><a href="research.php">Research</a></li>
+                                            <li><a href="education.php">Education</a></li>
+                                            <li><a href="chaplaincy.php">Chaplaincy</a></li>
+                                            <li><a href="guest_house.php">Guest House</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class=" dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support Us</a>
+                                        <ul class="dropdown-menu" >
+                                            <li><a href="make_donation.php">Make a donation</a></li>
+                                            <li><a href="manage_donation.php">how we manage donations</a></li>
+                                            <li><a href="what_we_need.php">what we need</a></li>
+                                            <li><a href="donner_equipment.php">donor equipment & supplies guidelines</a></li>
+                                            <li><a href="apeal.php">Apeals</a></li>
+                                            <li><a href="volunteer.php">volunteering</a></li>
+                                            <li><a href="donner_patterners.php">Donors and partners </a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class=" dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media</a>
+                                        <ul class="dropdown-menu" >
+                                            
+                                            <li><a href="news.php?page=news">News</a></li>
+                                            <li><a href="events.php">Events</a></li>
+                                            <li><a href="gallery.php">Gallery</a></li>
+
+                                        </ul>
+                                    </li>
+                                      <li class=" dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Education</a>
+                                        <ul class="dropdown-menu" >
+                                            <li><a target="_blank" href="http://www.unsbwindi.ac.ug/">Uganda Nursing School Bwindi</a></li>
+                                            <li><a target="_blank" href="https://www.uchsb.ac.ug"> Uganda College Of Health Science Bwindi</a></li>
+
+                                        </ul>
+                                    </li>
+                                    
+                                       <li class=" dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact us</a>
+                                        <ul class="dropdown-menu" >
+                                            <li><a href="senior_contact.php">senior contacts</a></li>
+                                            <li><a href="contact_info.php">contact info</a></li>
+                                            <li><a href="transport_means.php">means of transport to bwindi</a></li>
+                                            
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div><!-- navbar-collapse -->
+
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.container -->
+        </nav><!-- navbar -->
+    </div>
+</header>
+
+            
+<div class="banner carousel slide" id="recommended-item-carousel" data-ride="carousel">
+    <!--<a style="color:#ffffff;" ><i class="btn btn-danger fa fa-exclamation-triangle">COVID-19 alert</i> &nbsp;Stay at home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance.</a>-->
+    <div class="slides carousel-inner">
+<div class="item">
+            <img src="slider_images/4thgrad.jpg" alt="" />
+            <div class="banner_caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="caption_inner animated fadeInUp">
+                                <h1>UNSB 4th Graduation ceremony </h1>
+                                
+                            </div><!--end caption_inner-->
+                        </div>
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end banner_caption-->
+        </div>
+        <div class="item">
+            <img src="slider_images/lab.jpg" alt="" />
+            <div class="banner_caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="caption_inner animated fadeInUp">
+                                <h1>Diagnostic  services </h1>
+</div><!--end caption_inner-->
+                        </div>
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end banner_caption-->
+        </div>
+        <div class="item">
+            <img src="slider_images/commissioning.jpg" alt="" />
+            <div class="banner_caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="caption_inner animated fadeInUp">
+                                <h1>
+                                
+</h1>
+</div><!--end caption_inner-->
+                        </div>
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end banner_caption-->
+        </div>
+        <div class="item">
+            <img src="slider_images/eye.jpg" alt="" />
+            <div class="banner_caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="caption_inner animated fadeInUp">
+                                <h1>Eye care services </h1>
+                                
+                            </div><!--end caption_inner-->
+                        </div>
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end banner_caption-->
+        </div>
+        <div class="item active">
+            <img src="slider_images/nicu.jpg" alt="" />
+            <div class="banner_caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="caption_inner animated fadeInUp">
+                                <h1>Child care in neonatal unit</h1>
+                                <a href="child_health.php?page=children">Paediatrics unit</a>
+                            </div><!--end caption_inner-->
+                        </div>
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end banner_caption-->
+        </div>
+         <div class="item">
+            <img src="slider_images/community1.jpg" alt="" />
+            <div class="banner_caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="caption_inner animated fadeInUp">
+                                <h1>community out-reach  </h1>
+                                <p>C.O.U Bwindi community Hospital offers community health services to people within its catchment area</p>
+                                 <a href="community.php?page=mental">Community</a>
+                            </div><!--end caption_inner-->
+                        </div>
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end banner_caption-->
+      
+        </div>
+         <div class="item">
+            <img src="slider_images/livelihood.jpg" alt="" />
+            <div class="banner_caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="caption_inner animated fadeInUp">
+                                <h1>Livelihood project  </h1>
+                                <p>Distribution of goats among the Batwa as part of the livelihood project</p>
+                                 </div><!--end caption_inner-->
+                        </div>
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end banner_caption-->
+        </div>
+        
+        <div class="item">
+            <img src="slider_images/skilling.jpg" alt="" />
+            <div class="banner_caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="caption_inner animated fadeInUp">
+                                <h1>Mothers’ waiting home skilling project</h1>
+                                <p></p>
+                            </div><!--end caption_inner-->
+                        </div>
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end banner_caption-->
+        </div>
+<div class="item">
+            <img src="slider_images/ors.jpg" alt="" />
+                   <div class="banner_caption">  
+ <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                           <div class="caption_inner animated fadeInUp">
+                                <h1>surgery at bch </h1>
+                               
+                                <p></p>
+                            </div><!--end caption_inner-->
+                        </div>
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end banner_caption-->
+        </div>
+        <div class="item">
+            <img src="slider_images/health-care training.jpg" alt="" />
+            <div class="banner_caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="caption_inner animated fadeInUp">
+                                <h1>Health Care Training</h1>
+                                <p>We are committed to becoming a regional centre of excellence offering tertiary health care, and training top notch healthcare professionals. </p>
+                              
+                                   </div><!--end caption_inner-->
+                        </div>
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end banner_caption-->
+        </div>
+          <div class="item">
+            <img src="slider_images/icu.jpg" alt="" />
+            <div class="banner_caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="caption_inner animated fadeInUp">
+                                <h1>icu </h1>
+                                <p></p>
+                            </div><!--end caption_inner-->
+                        
+                        </div>
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end banner_caption-->
+        </div>
+     <div class="item">
+            <img src="slider_images/dentvis.jpg" alt="" />
+            <div class="banner_caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="caption_inner animated fadeInUp">
+                                <h1>The BCH Dental Vision clinic ready for use</h1>
+                                <p></p>
+                            </div><!--end caption_inner-->
+                            </div>
+                        </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end banner_caption-->
+        </div>
+    </div>
+    <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
+        <img src="slider_images/prev.png">
+    </a>
+    <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
+        <img src="slider_images/next.png">
+    </a>
+</div><!--end banner-->
+
+            <div class="mainContent clearfix">
+                <div class="container">
+                    <div class="row clearfix">
+
+                        
+    <div class="col-sm-8 col-xs-12"> 
+      <div class="videoNine clearfix"> 
+        <div class="videoArea clearfix"> 
+          <h3><span style="color: #339933;">Welcome To Bwindi Community Hospital</span><a> &nbsp; We treat, God heals</a></h3> <hr /> 
+          <div class="row"> 
+            <div class="col-lg-12 col-md-12 col-xs-12 videoRight"> 
+              <p><font face="arial,helvetica,sans-serif">We are a not-for-profit community hospital under the auspices of the Church of Uganda in the Diocese of Kinkiizi. We offer preventative and curative services to 120,000 people, while our specialized services benefit patients nationwide. <br /></font></p><font face="arial,helvetica,sans-serif"> </font> 
+              <p><font face="arial,helvetica,sans-serif">Bwindi Community Hospital (BCH) has a bed capacity of 155 beds and handles about 40,000 consultations annually. We provide a wide range of services, including: Outpatient and Inpatient, Child health, Maternal health, Community health and Batwa, Dental and Eye health care, Diagnostics and Laboratory services, Mental health,Chronic Care, Accident and Emergency Services, Ambulance services, HIV/AIDS and TB care, Youth friendly services and eQuality Health Insurance. <span style="font-size: 11pt; line-height: 115%;">We  also train the next generation of healthcare professionals at Uganda Nursing School Bwindi and Uganda College of Health Sciences Bwindi.<br /></p> <font face="arial,helvetica,sans-serif"> </font> 
+              <p><font face="arial,helvetica,sans-serif">For the last ten years, BCH has consistently ranked among the best-performing health facilities in Uganda, according to the Uganda Protestant Medical Bureau (UPMB).</font></p><font face="arial,helvetica,sans-serif"> </font>
+              <p><font face="arial,helvetica,sans-serif">2025: UPMB Appreciation Award for eQuality Health Insurance Scheme Service Delivery 2024-2025 </font></p><font face="arial,helvetica,sans-serif"> </font> 
+              <p><font face="arial,helvetica,sans-serif">2024: UPMB Best Quality Service Delivery Award 2024 for embracing ICT in healthcare </font></p><font face="arial,helvetica,sans-serif"> </font> 
+              <p><font face="arial,helvetica,sans-serif">2024: Heroes in Health Award 2024, in recognition of the exceptional achievements and dedication to the field of healthcare in the use of ICT to Improve Patient Care Award </font></p><font face="arial,helvetica,sans-serif"> </font> 
+              <p><font face="arial,helvetica,sans-serif">2024: Heroes in Health Lifetime Achievement Award 2024 to Dr. Scott Kellermann, in recognition of his outstanding contributions and dedication to improving the well-being of individuals and communities.</font></p><font face="arial,helvetica,sans-serif"> </font> 
+              <p><font face="arial,helvetica,sans-serif">2021: Prince Albert II of Monaco Prize for Innovative Philanthropy, in recognition of the exceptional work carried out by BCH to provide access to healthcare for the poorest communities.</font></p><font face="arial,helvetica,sans-serif"> </font> 
+              <p><font face="arial,helvetica,sans-serif">2018: UPMB award for innovatively growing the Community Health Insurance, overall best performer in timely compilation and submission of quality reports and good Monitoring and Evaluation practices.</font></p><font face="arial,helvetica,sans-serif"> </font> 
+              <p><font face="arial,helvetica,sans-serif">2018: UPMB award for leading innovation and use of technology in nursing education in Uganda.</font></p><font face="arial,helvetica,sans-serif"> </font> 
+              <p><font face="arial,helvetica,sans-serif">2018: Won Social Innovation in health Initiative award by Makerere University School of Public Health for pioneering Mothers Waiting 
+Hostel for safe motherhood in Uganda, as an affordable and sustainable innovation to improve facility deliveries.</font></p><font face="arial,helvetica,sans-serif"> </font> 
+              <p><font face="arial,helvetica,sans-serif">2017: Won Grand Challenge Canada innovation Award for using digital and mobile technology to create an affordable community-rooted community health service for poor remote setting.</font></p><font face="arial,helvetica,sans-serif"> </font> 
+              <p><font face="arial,helvetica,sans-serif">2017: Winner of the 2017 Uganda sustainable development award by Public Opinions.</font></p><font face="arial,helvetica,sans-serif"> </font> 
+              <p><font face="arial,helvetica,sans-serif">2014: Mama Alive Initiative Award (Uganda) for improving maternal health in the region</font></p><font face="arial,helvetica,sans-serif"> </font> 
+              <p><font face="arial,helvetica,sans-serif">2013: Public Opinion Pearl of Africa Life Time Achievement Award for contributing towards attainment of the millennium Development 
+goals.</font></p><font face="arial,helvetica,sans-serif"> </font> 
+              <p><font face="arial,helvetica,sans-serif">2011: Stars Foundation (UK) health impact ward for Africa and Middle East region for improving child health.</font></p><font face="arial,helvetica,sans-serif"> </font> 
+              <p><font face="arial,helvetica,sans-serif">A number of other health facilities from across the country continue to visit Bwindi to learn from our innovations and best practices to help improve healthcare delivery in their own regions.</font></p> 
+            </div> <!-- videoRight --> 
+          </div><!-- row --> 
+        </div><!-- videoArea --> 
+      </div><!--videoNine--> 
+    </div><!-- col-sm-8 col-xs-12 --> 
+  </body>
+</html>
+                         <div class="col-sm-4 col-xs-12">
+            <div class="list_block related_post_sec">
+              <div class="upcoming_events" style="max-height: 600px;">
+                <h3>Bwindi Tweets</h3>
+                 <ul>
+                  <li class="related_post_sec single_post">
+                
+               <!--       <div class='sk-ww-twitter-feed' data-embed-id='25464987'></div><script src='https://widgets.sociablekit.com/twitter-feed/widget.js' async defer></script>-->
+               <!--        <a class="twitter-timeline" href="https://twitter.com/Bwindihospital?ref_src=twsrc%5Etfw">Tweets by Bwindihospital</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  -->
+               <!--  <<div class='sk-ww-twitter-hashtag-feed' data-embed-id='25454750'></div><script src='https://widgets.sociablekit.com/twitter-hashtag-feed/widget.js' async defer></script>>    -->
+               <!--<div class='sk-ww-twitter-feed' data-embed-id='25415615'></div><script src='https://widgets.sociablekit.com/twitter-feed/widget.js' async defer></script>-->
+                   
+                    <iframe src='https://widgets.sociablekit.com/twitter-feed/iframe/25596001' frameborder='0' width='100%' height='500'></iframe>
+            
+                  </li>
+                </ul>
+                </div>
+            </div><!-- end list_block -->
+          </div><!-- col-sm-4 col-xs-12 -->
+          
+          
+       
+                    </div><!-- row clearfix -->
+                </div><!-- container -->
+            </div><!-- mainContent -->
+
+            <footer class="footer-v1" style="background-color: #f2f2f2; padding-top: 40px; color: #333;">
+    <div class="menuFooter clearfix">
+        <div class="container">
+            <div class="row clearfix">
+
+                <!-- Contact Us -->
+                <div class="col-sm-2 col-xs-6">
+                    <div class="footer-address" style="text-align: left;">
+                        <h5 style="color:#333366;">Contact Us</h5>
+                        <p style="margin: 0;"><i class="fa fa-map-marker"></i> Bwindi Community Hospital</p>
+                        <address style="margin-top: 10px; font-style: normal;">
+                            P.O. Box 58<br>
+                            Kanungu, Uganda<br>
+                            <i class="fa fa-phone"></i> +256 (0) 392 880 242<br>
+                            <i class="fa fa-envelope"></i> <a href="mailto:bwindicommunityhospital@gmail.com" style="color: #333; word-break: break-all;">bwindicommunityhospital@gmail.com</a>
+                        </address>
+                    </div>
+                </div>
+
+                <!-- Uganda College -->
+                <div class="col-sm-3 col-xs-6 borderLeft">
+                    <h5 style="color:#333366;">Uganda College of Health Science Bwindi</h5>
+                    <a target="_blank" href="https://www.uchsb.ac.ug">
+                        <img style="max-height: 80px; margin-top: 10px;" src="images/Logo-College.JPG" alt="Uganda College Logo" class="img-responsive">
+                    </a>
+                </div>
+
+                <!-- Nursing School -->
+                <div class="col-sm-3 col-xs-6 borderLeft">
+                    <h5 style="color:#333366;">Uganda Nursing School Bwindi</h5>
+                    <a target="_blank" href="http://www.unsbwindi.ac.ug/">
+                        <img style="max-height: 80px; margin-top: 10px;" src="images/nursing.jpg" alt="Nursing School" class="img-responsive">
+                    </a>
+                </div>
+
+                <!-- Guest House -->
+                <div class="col-sm-2 col-xs-6 borderLeft">
+                    <h5 style="color:#333366;">Bwindi Guest House</h5>
+                    <a target="_blank" href="https://www.bwindiguesthouse.com/">
+                        <img style="margin-top: 10px;" src="images/Bwindi guest house.png" alt="Guest House" class="img-responsive">
+                    </a>
+                </div>
+
+                <!-- AeroLink -->
+                <div class="col-sm-2 col-xs-6 borderLeft">
+                     <h5 style="color:#333366;">Aerolink Uganda</h5>
+                    <a target="_blank" href="https://www.aerolinkuganda.com/en">
+                        <img style="max-height: 80px; margin-top: 10px;" src="images/Aerolink_Uganda_logo.svg.png" alt="Aero Link" class="img-responsive">
+                        <h6 style="color:#333366; margin-top: 10px;">Safari Airline Sponsor</h6>
+                    </a>
+                </div>
+
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- menuFooter -->
+
+    <!-- Bottom Footer -->
+    <div class="footer clearfix" style="background-color: #e1e1e1; padding: 15px 0; margin-top: 30px;">
+        <div class="container">
+            <div class="row clearfix">
+                <div clas
+        </div>
+
+
+        <script type="text/javascript">
+    function send_email() {
+
+        var applicant_name = document.getElementById('applicant_name').value;
+        var application_date = document.getElementById("application_date").value;
+        var dob = document.getElementById("dob").value;
+        var sex = document.getElementById("sex").value;
+        var physical_address = document.getElementById("physical_address").value;
+        var applicant_phone = document.getElementById("applicant_phone").value;
+        var applicant_email = document.getElementById("applicant_email").value;
+        var next_of_kin = document.getElementById("next_of_kin").value;
+        var type_of_kin = document.getElementById("type_of_kin").value;
+        var next_of_kin_physical_address = document.getElementById("next_of_kin_physical_address").value;
+        var next_of_kin_applicant_phone = document.getElementById("next_of_kin_applicant_phone").value;
+        var next_of_kin_applicant_email = document.getElementById("next_of_kin_applicant_email").value;
+        var sending_organisation = document.getElementById("sending_organisation").value;
+        var sending_organisation_applicant_phone = document.getElementById("sending_organisation_applicant_phone").value;
+        var sending_organisation_physical_address = document.getElementById("sending_organisation_physical_address").value;
+        var expected_date_of_arrival = document.getElementById("expected_date_of_arrival").value;
+        var expected_date_of_departure = document.getElementById("expected_date_of_departure").value;
+        var area_of_specialisation = document.getElementById("area_of_specialisation").value;
+        var qualification = document.getElementById("qualification").value;
+        var experience = document.getElementById("experience").value;
+        var comments = document.getElementById("comments").value;
+        var allerge = document.getElementById("allerge").value;
+        var medication = document.getElementById("medication").value;
+        var convicted = document.getElementsByName("convicted")[0].value;
+        var convict_explain = document.getElementById("convict_explain").value;
+        var reference1 = document.getElementById("reference1").value;
+        var reference2 = document.getElementById("reference2").value;
+        var reference3 = document.getElementById("reference3").value;
+        var message = (applicant_name == '' || application_date == '' || dob == '' || sex == '' || physical_address == ''
+                || applicant_phone == '' || applicant_email == '' || next_of_kin == '' || type_of_kin == '' || next_of_kin_physical_address == ''
+                || next_of_kin_applicant_phone == '' || next_of_kin_applicant_email == '' || sending_organisation == '' || sending_organisation_applicant_phone == ''
+                || sending_organisation_physical_address == '' || expected_date_of_arrival == '' || expected_date_of_departure == ''
+                || area_of_specialisation == '' || qualification == '' || allerge == '' || convicted == '') ? "Reminder! All fields with * are required to be filled" : "";
+        if (message == '') {
+            var mailFormat = /\S+@\S+\.\S+/;
+            if (!applicant_email.match(mailFormat)) {
+                jQuery('#form_message').css({'color': 'red', 'font-style': 'italic', 'font-size': '150%'});
+                jQuery('#form_message').html('Invalid Applicant email address');
+            } else if (!next_of_kin_applicant_email.match(mailFormat)) {
+                jQuery('#form_message').css({'color': 'red', 'font-style': 'italic', 'font-size': '150%'});
+                jQuery('#form_message').html('Invalid next of kin email address');
+            } else {
+                jQuery('#form_message').html('sending...');
+                jQuery.ajax({
+                    type: 'POST',
+                    url: 'ajax_data.php',
+                    data: {submit_text: "send_email", allerge: allerge, reference1: reference1, reference2: reference2, reference3: reference3, convict_explain: convict_explain, convicted: convicted, medication: medication, applicant_name: applicant_name, application_date: application_date, dob: dob, sex: sex, physical_address: physical_address, applicant_phone: applicant_phone, applicant_email: applicant_email, next_of_kin: next_of_kin, type_of_kin: type_of_kin, next_of_kin_physical_address: next_of_kin_physical_address, next_of_kin_applicant_phone: next_of_kin_applicant_phone, next_of_kin_applicant_email: next_of_kin_applicant_email, sending_organisation: sending_organisation, sending_organisation_applicant_phone: sending_organisation_applicant_phone, sending_organisation_physical_address: sending_organisation_physical_address, expected_date_of_arrival: expected_date_of_arrival, expected_date_of_departure: expected_date_of_departure, area_of_specialisation: area_of_specialisation, qualification: qualification, experience: experience, comments: comments},
+                    success: function (html) {
+
+                        var word = 'Application has been successfully sent';
+                        var regex = new RegExp('\\b' + word + '\\b');
+                        if (regex.test(html)) {
+                            jQuery('#form_message').css({'color': 'blue', 'font-style': 'italic', 'font-size': '150%'});
+                            jQuery('#form_message').html(word);
+                        } else {
+                            jQuery('#form_message').css({'color': 'red', 'font-style': 'italic', 'font-size': '150%'});
+                            jQuery('#form_message').html(html);
+                        }
+                    }
+                });
+            }
+
+        } else {
+            jQuery('#form_message').css({'color': 'red', 'font-style': 'italic', 'font-size': '150%'});
+            jQuery('#form_message').html(message);
+        }
+    }
+
+    function send_newsletters() {
+        var newsletter_area_of_interest_data = "";
+        var newsletter_area_of_interest = document.getElementsByName('newsletter_area_of_interest[]');
+        for (var i = 0; i < newsletter_area_of_interest.length; i++) {
+            if (newsletter_area_of_interest[i].checked) {
+                newsletter_area_of_interest_data += "," + newsletter_area_of_interest[i].value;
+            }
+        }
+        jQuery('#newsletter_result').html('sending...');
+        var Department = document.getElementById('Department').value;
+        var newsletter_name = document.getElementById('newsletter_name').value;
+        var newsletter_email = document.getElementById('newsletter_email').value;
+        var newsletter_country = document.getElementById('newsletter_country').value;
+        var newsletter_job_title = document.getElementById('newsletter_job_title').value;
+        var newsletter_company = document.getElementById('newsletter_company').value;
+        var newsletter_website = document.getElementById('newsletter_website').value;
+        var newsletter_phone = document.getElementById('newsletter_phone').value;
+        var newsletter_mailing_list = document.getElementById('newsletter_mailing_list').value;
+        var newsletter_comment = document.getElementById('newsletter_comment').value;
+        if (newsletter_comment != '') {
+            jQuery('#newsletter_result').html('sending...');
+            jQuery.ajax({
+                type: 'POST',
+                url: 'ajax_data.php',
+                data: {submit_text: "send_news_letter", Department: Department, newsletter_name: newsletter_name, newsletter_email: newsletter_email,
+                    newsletter_country: newsletter_country, newsletter_job_title: newsletter_job_title, newsletter_company: newsletter_company,
+                    newsletter_website: newsletter_website, newsletter_phone: newsletter_phone, newsletter_mailing_list: newsletter_mailing_list, newsletter_comment: newsletter_comment,
+                    newsletter_area_of_interest_data: newsletter_area_of_interest_data},
+                success: function (html) {
+
+                    var word = 'Application has been successfully sent';
+                    var wordz = 'Application could not be sent';
+                    var regex = new RegExp('\\b' + word + '\\b');
+                    var regexz = new RegExp('\\b' + wordz + '\\b');
+                    if (regex.test(html)) {
+                        jQuery('#newsletter_result').css({'color': 'blue', 'font-style': 'italic', 'font-size': '150%'});
+                        jQuery('#newsletter_result').html(word);
+                    } else if (regexz.test(html)) {
+                        jQuery('#newsletter_result').css({'color': 'red', 'font-style': 'italic', 'font-size': '150%'});
+                        jQuery('#newsletter_result').html('connection error');
+                    } else {
+                        jQuery('#newsletter_result').css({'color': 'red', 'font-style': 'italic', 'font-size': '150%'});
+                        jQuery('#newsletter_result').html('communication error');
+                    }
+                }
+            });
+        } else {
+            jQuery('#newsletter_result').css({'color': 'red', 'font-style': 'italic', 'font-size': '150%'});
+            jQuery('#newsletter_result').html("comment box must be filled");
+        }
+
+    }
+
+    function send_contact() {
+        var contact_name = document.getElementById('contact_name').value;
+        var contact_email = document.getElementById("contact_email").value;
+        var subject = document.getElementById("subject").value;
+        var contact_message = document.getElementById("contact_message").value;
+        var message = (contact_name == '' || contact_email == '' || contact_message == '') ? "name, email and message fields must be filled" : "";
+        if (contact_name == '' || contact_email == '' || contact_message == '') {
+            jQuery('#contact_result').css({'color': 'red', 'font-style': 'italic', 'font-size': '150%'});
+            jQuery('#contact_result').html("name, email and message fields must be filled");
+
+        } else {
+            jQuery('#contact_result').html('sending...');
+            jQuery.ajax({
+                type: 'POST',
+                url: 'ajax_data.php',
+                data: {submit_text: "send_contact", contact_name: contact_name, contact_email: contact_email, subject: subject, contact_message: contact_message},
+                success: function (html) {
+
+                    var word = 'message has been successfully sent';
+                    var regex = new RegExp('\\b' + word + '\\b');
+                    if (regex.test(html)) {
+                        jQuery('#contact_result').css({'color': 'blue', 'font-style': 'italic', 'font-size': '150%'});
+                        jQuery('#contact_result').html(word);
+                    } else {
+                        jQuery('#contact_result').css({'color': 'red', 'font-style': 'italic', 'font-size': '150%'});
+                        jQuery('#contact_result').html(html);
+                    }
+                }
+            });
+        }
+    }
+</script>
+<!-- JQUERY SCRIPTS -->
+<script src="plugins/jquery/jquery-1.11.1.min.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+<script src="plugins/flexslider/jquery.flexslider.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+<script src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+<script src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+<script src="plugins/selectbox/jquery.selectbox-0.1.3.min.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+<script src="plugins/pop-up/jquery.magnific-popup.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+<script src="plugins/animation/waypoints.min.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+<script src="plugins/count-up/jquery.counterup.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+<script src="plugins/animation/wow.min.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+<script src="plugins/animation/moment.min.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+<script src="plugins/calender/fullcalendar.min.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+<script src="plugins/owl-carousel/owl.carousel.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+<script src="plugins/timer/jquery.syotimer.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+<script src="plugins/smoothscroll/SmoothScroll.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+<script src="js/custom.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>
+
+<!--<link href="options/optionswitch.css" rel="stylesheet">-->
+<!--<script src="options/optionswitcher.js" type="413e1f26664b8852c1a1773b-text/javascript"></script>-->
+<script src="ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="413e1f26664b8852c1a1773b-|49" defer=""></script></body>
+</html>
+
