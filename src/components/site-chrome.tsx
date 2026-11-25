@@ -94,7 +94,7 @@ export function SiteChrome({ children }: { children: ReactNode }) {
         </div>
       </div>
 
-      <header className="sticky top-0 z-50 bg-primary text-primary-foreground shadow-[0_16px_36px_-30px_rgba(21,61,49,0.8)]">
+      <header className="sticky top-0 z-50 bg-forest text-white shadow-[0_16px_36px_-30px_rgba(21,61,49,0.8)]">
         <div className="site-container flex h-[70px] items-center justify-between gap-4">
           <Link
             to="/"

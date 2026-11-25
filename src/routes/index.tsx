@@ -220,66 +220,55 @@ function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="px-2 pt-2 md:px-3 md:pt-3">
-        <div className="relative overflow-hidden rounded-[1.75rem] bg-foreground text-background md:rounded-[2.25rem]">
-          <div className="absolute inset-0 bg-[linear-gradient(112deg,oklch(0.315_0.045_163)_22%,oklch(0.325_0.05_162)_62%,oklch(0.275_0.05_162))]" />
-          <div
-            aria-hidden
-            className="absolute -right-24 -top-24 size-96 rounded-full bg-[radial-gradient(circle,oklch(0.45_0.08_155/0.55),transparent_65%)]"
-          />
+      <section className="relative isolate overflow-hidden bg-foreground text-background">
+        <img
+          src="/images/bch/hero-building.jpg"
+          width={1820}
+          height={720}
+          fetchPriority="high"
+          alt=""
+          aria-hidden
+          className="absolute inset-0 h-full w-full object-cover object-[45%_50%]"
+        />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,oklch(0.245_0.045_163/0.93)_0%,oklch(0.245_0.045_163/0.8)_100%)] md:bg-[linear-gradient(100deg,oklch(0.245_0.045_163/0.96)_0%,oklch(0.25_0.045_163/0.93)_36%,oklch(0.27_0.05_162/0.6)_66%,oklch(0.3_0.05_162/0.15)_100%)]" />
+        <div
+          aria-hidden
+          className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-foreground/55 to-transparent"
+        />
 
-          <div className="relative px-5 pb-5 pt-11 sm:px-8 sm:pb-8 sm:pt-14 md:px-8 md:pb-8 md:pt-12 lg:px-12 lg:pb-12 lg:pt-16 xl:px-16 xl:pb-14">
-            <div className="grid gap-8 lg:grid-cols-[1.12fr_0.88fr] lg:items-center lg:gap-16">
-              <div className="animate-[rise_0.6s_ease-out_both]">
-                <p className="text-[13px] font-semibold tracking-[0.02em] text-accent">
-                  Serving Kanungu since 2003
-                </p>
-                <h1 className="mt-4 max-w-xl text-[2.65rem] font-extrabold leading-[1.03] tracking-[-0.035em] text-balance text-white md:text-[3.2rem] lg:text-[3.7rem] xl:text-[4.4rem]">
-                  We treat,
-                  <br />
-                  God heals.
-                </h1>
-              </div>
-
-              <div className="max-w-md lg:pb-2">
-                <p className="text-[15px] leading-7 text-background/80 sm:text-base">
-                  Bwindi Community Hospital is a not-for-profit hospital at the edge of Bwindi
-                  Impenetrable Forest, bringing dependable, humane care to more than 120,000 people.
-                </p>
-                <div className="mt-8 flex flex-wrap items-center gap-4">
-                  <Button size="lg" asChild>
-                    <Link to="/support">
-                      <Heart className="fill-current" />
-                      Donate now
-                    </Link>
-                  </Button>
-                  <Link
-                    to="/services"
-                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-background/85 underline-offset-4 hover:text-white hover:underline"
-                  >
-                    Explore our services
-                    <ArrowRight className="size-4" />
-                  </Link>
-                </div>
-                <p className="mt-8 flex items-center gap-2 text-xs text-background/55">
-                  <span className="h-px w-8 bg-background/30" aria-hidden />A hospital of the Church
-                  of Uganda, Diocese of Kinkiizi
-                </p>
-              </div>
+        <div className="site-container relative py-16 sm:py-20 md:py-24 lg:py-28">
+          <div className="max-w-2xl animate-[rise_0.6s_ease-out_both]">
+            <p className="text-[13px] font-semibold tracking-[0.02em] text-accent">
+              Serving Kanungu since 2003
+            </p>
+            <h1 className="mt-4 max-w-xl text-[2.65rem] font-extrabold leading-[1.03] tracking-[-0.035em] text-balance text-white md:text-[3.2rem] lg:text-[3.7rem] xl:text-[4.4rem]">
+              We treat,
+              <br />
+              God heals.
+            </h1>
+            <p className="mt-6 max-w-lg text-[15px] leading-7 text-background/85 sm:text-base">
+              Bwindi Community Hospital is a not-for-profit hospital at the edge of Bwindi
+              Impenetrable Forest, bringing dependable, humane care to more than 120,000 people.
+            </p>
+            <div className="mt-8 flex flex-wrap items-center gap-4">
+              <Button size="lg" asChild>
+                <Link to="/support">
+                  <Heart className="fill-current" />
+                  Donate now
+                </Link>
+              </Button>
+              <Link
+                to="/services"
+                className="inline-flex items-center gap-1.5 text-sm font-semibold text-background/85 underline-offset-4 hover:text-white hover:underline"
+              >
+                Explore our services
+                <ArrowRight className="size-4" />
+              </Link>
             </div>
-
-            <figure className="mt-10 overflow-hidden rounded-[1.15rem] ring-1 ring-white/15 sm:mt-12 lg:mt-14">
-              <div className="aspect-[16/10] sm:aspect-[2.2] lg:aspect-[1820/720]">
-                <img
-                  src="/images/bch/hero-building.jpg"
-                  width={1820}
-                  height={720}
-                  fetchPriority="high"
-                  alt="A hospital building at Bwindi Community Hospital"
-                  className="h-full w-full object-cover object-center"
-                />
-              </div>
-            </figure>
+            <p className="mt-8 flex items-center gap-2 text-xs text-background/65">
+              <span className="h-px w-8 bg-background/35" aria-hidden />A hospital of the Church of
+              Uganda, Diocese of Kinkiizi
+            </p>
           </div>
         </div>
       </section>
