@@ -222,87 +222,64 @@ function Home() {
       {/* Hero */}
       <section className="px-2 pt-2 md:px-3 md:pt-3">
         <div className="relative overflow-hidden rounded-[1.75rem] bg-foreground text-background md:rounded-[2.25rem]">
-          <img
-            src={bchImages.hospitalGallery}
-            alt=""
-            aria-hidden
-            className="absolute inset-0 h-full w-full object-cover opacity-25"
-          />
-          <div className="absolute inset-0 bg-[linear-gradient(105deg,oklch(0.315_0.045_163)_28%,oklch(0.335_0.052_161/0.94)_58%,oklch(0.28_0.05_162/0.55))]" />
+          <div className="absolute inset-0 bg-[linear-gradient(112deg,oklch(0.315_0.045_163)_22%,oklch(0.325_0.05_162)_62%,oklch(0.275_0.05_162))]" />
           <div
             aria-hidden
             className="absolute -right-24 -top-24 size-96 rounded-full bg-[radial-gradient(circle,oklch(0.45_0.08_155/0.55),transparent_65%)]"
           />
 
-          <div className="relative grid gap-10 px-5 py-11 sm:px-8 sm:py-14 md:grid-cols-[1.02fr_0.98fr] md:items-center md:gap-4 md:px-8 md:py-12 lg:gap-2 lg:px-12 lg:py-16 xl:px-16">
-            <div className="animate-[rise_0.6s_ease-out_both]">
-              <p className="text-[13px] font-semibold tracking-[0.02em] text-accent">
-                Serving Kanungu since 2003
-              </p>
-              <h1 className="mt-4 max-w-xl text-[2.65rem] font-extrabold leading-[1.03] tracking-[-0.035em] text-balance text-white md:text-[3.2rem] lg:text-[3.7rem] xl:text-[4.4rem]">
-                We treat,
-                <br />
-                God heals.
-              </h1>
-              <p className="mt-6 max-w-md text-[15px] leading-7 text-background/80 sm:text-base">
-                Bwindi Community Hospital is a not-for-profit hospital at the edge of Bwindi
-                Impenetrable Forest, bringing dependable, humane care to more than 120,000 people.
-              </p>
-              <div className="mt-8 flex flex-wrap items-center gap-4">
-                <Button size="lg" asChild>
-                  <Link to="/support">
-                    <Heart className="fill-current" />
-                    Donate now
-                  </Link>
-                </Button>
-                <Link
-                  to="/services"
-                  className="inline-flex items-center gap-1.5 text-sm font-semibold text-background/85 underline-offset-4 hover:text-white hover:underline"
-                >
-                  Explore our services
-                  <ArrowRight className="size-4" />
-                </Link>
+          <div className="relative px-5 pb-5 pt-11 sm:px-8 sm:pb-8 sm:pt-14 md:px-8 md:pb-8 md:pt-12 lg:px-12 lg:pb-12 lg:pt-16 xl:px-16 xl:pb-14">
+            <div className="grid gap-8 lg:grid-cols-[1.12fr_0.88fr] lg:items-center lg:gap-16">
+              <div className="animate-[rise_0.6s_ease-out_both]">
+                <p className="text-[13px] font-semibold tracking-[0.02em] text-accent">
+                  Serving Kanungu since 2003
+                </p>
+                <h1 className="mt-4 max-w-xl text-[2.65rem] font-extrabold leading-[1.03] tracking-[-0.035em] text-balance text-white md:text-[3.2rem] lg:text-[3.7rem] xl:text-[4.4rem]">
+                  We treat,
+                  <br />
+                  God heals.
+                </h1>
               </div>
-              <p className="mt-10 flex items-center gap-2 text-xs text-background/55">
-                <span className="h-px w-8 bg-background/30" aria-hidden />A hospital of the Church
-                of Uganda, Diocese of Kinkiizi
-              </p>
+
+              <div className="max-w-md lg:pb-2">
+                <p className="text-[15px] leading-7 text-background/80 sm:text-base">
+                  Bwindi Community Hospital is a not-for-profit hospital at the edge of Bwindi
+                  Impenetrable Forest, bringing dependable, humane care to more than 120,000 people.
+                </p>
+                <div className="mt-8 flex flex-wrap items-center gap-4">
+                  <Button size="lg" asChild>
+                    <Link to="/support">
+                      <Heart className="fill-current" />
+                      Donate now
+                    </Link>
+                  </Button>
+                  <Link
+                    to="/services"
+                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-background/85 underline-offset-4 hover:text-white hover:underline"
+                  >
+                    Explore our services
+                    <ArrowRight className="size-4" />
+                  </Link>
+                </div>
+                <p className="mt-8 flex items-center gap-2 text-xs text-background/55">
+                  <span className="h-px w-8 bg-background/30" aria-hidden />A hospital of the Church
+                  of Uganda, Diocese of Kinkiizi
+                </p>
+              </div>
             </div>
 
-            <div className="relative mx-auto aspect-[5/4] w-full max-w-[34rem] sm:aspect-[6/5] md:aspect-auto md:h-[24rem] md:max-w-none lg:h-[29rem]">
-              <div
-                aria-hidden
-                className="absolute inset-[8%_6%_2%_10%] rotate-3 rounded-[52%_48%_46%_54%/48%_52%_48%_52%] border-2 border-white/35"
-              />
-              <div
-                aria-hidden
-                className="absolute bottom-[2%] right-[3%] h-[56%] w-[42%] -rotate-6 rounded-[52%_48%_45%_55%/52%_46%_54%_48%] border-[5px] border-accent"
-              />
-              <div className="absolute inset-[3%_17%_6%_3%] overflow-hidden rounded-[52%_48%_45%_55%/50%_48%_52%_50%] border-[9px] border-white shadow-[0_30px_60px_-30px_rgba(0,0,0,0.55)] sm:border-[12px]">
+            <figure className="mt-10 overflow-hidden rounded-[1.15rem] ring-1 ring-white/15 sm:mt-12 lg:mt-14">
+              <div className="aspect-[16/10] sm:aspect-[2.2] lg:aspect-[1820/720]">
                 <img
-                  src={bchImages.galleryCare}
-                  width={1600}
-                  height={1067}
+                  src="/images/bch/hero-building.jpg"
+                  width={1820}
+                  height={720}
                   fetchPriority="high"
-                  alt="Children playing outside Bwindi Community Hospital"
-                  className="h-full w-full object-cover object-[52%_42%]"
+                  alt="A hospital building at Bwindi Community Hospital"
+                  className="h-full w-full object-cover object-center"
                 />
               </div>
-              <div className="absolute bottom-0 right-[1%] h-[44%] w-[34%] -rotate-6 overflow-hidden rounded-[52%_48%_45%_55%/52%_46%_54%_48%] border-[6px] border-accent shadow-[0_20px_40px_-24px_rgba(0,0,0,0.6)] sm:border-[8px]">
-                <img
-                  src="/images/bch/fdd8033d-children.jpg"
-                  width={1600}
-                  height={1067}
-                  alt="A young patient at Bwindi Community Hospital"
-                  className="h-full w-full object-cover"
-                />
-              </div>
-              <HeartHandshake
-                aria-hidden
-                className="absolute -bottom-2 left-[14%] size-16 text-accent/45 sm:size-20"
-                strokeWidth={1.2}
-              />
-            </div>
+            </figure>
           </div>
         </div>
       </section>
