@@ -2,6 +2,7 @@ import { PublishedContentLinks } from "@/components/published-content-links";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowUpRight } from "lucide-react";
 import { CTA, Kicker, PageHero, Section } from "@/components/page-sections";
+import { ResponsiveImage } from "@/components/responsive-image";
 import { Button } from "@/components/ui/button";
 import team from "@/lib/bch-published-staff.json";
 
@@ -61,11 +62,11 @@ function Team() {
               className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-[0_24px_44px_-44px_rgba(21,61,49,0.5)]"
             >
               {p.image ? (
-                <img
+                <ResponsiveImage
                   src={p.image}
                   alt={p.name}
+                  sizes="(min-width: 1280px) 25vw, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                   className="aspect-[4/5] w-full object-cover"
-                  loading="lazy"
                 />
               ) : (
                 <div className="grid aspect-[4/5] w-full place-items-center bg-secondary">

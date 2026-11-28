@@ -2,6 +2,7 @@ import { PublishedContentLinks } from "@/components/published-content-links";
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowUpRight, BookOpen } from "lucide-react";
 import { Kicker, PageHero, Section } from "@/components/page-sections";
+import { ResponsiveImage } from "@/components/responsive-image";
 import { bchImages } from "@/lib/bch-images";
 
 export const Route = createFileRoute("/education")({
@@ -89,10 +90,9 @@ function Page() {
       <Section>
         <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:gap-14">
           <div className="overflow-hidden rounded-[2rem] border-[8px] border-white shadow-[0_30px_60px_-45px_rgba(21,61,49,0.6)]">
-            <img
+            <ResponsiveImage
               src={bchImages.clinicalTraining}
-              width={1200}
-              height={800}
+              sizes="(min-width: 1024px) 50vw, 100vw"
               alt="Health care training at Bwindi Community Hospital"
               className="aspect-[5/4] w-full object-cover lg:aspect-[4/3]"
             />
@@ -164,10 +164,10 @@ function Page() {
               className="group flex flex-col items-center gap-4 rounded-2xl border border-border bg-card p-6 text-center transition-colors hover:border-primary/40"
             >
               <span className="grid h-24 place-items-center">
-                <img
+                <ResponsiveImage
                   src={img}
                   alt={`${name} logo`}
-                  loading="lazy"
+                  sizes="160px"
                   className="max-h-20 w-auto max-w-full object-contain"
                 />
               </span>

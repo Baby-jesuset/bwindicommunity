@@ -1,6 +1,7 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { ChevronDown, Heart, Mail, MapPin, Menu, Phone, Search, X } from "lucide-react";
 import { useMemo, useState, type ReactNode } from "react";
+import { ResponsiveImage } from "@/components/responsive-image";
 import { Button } from "@/components/ui/button";
 import { contact, services } from "@/lib/bch-content";
 
@@ -102,11 +103,11 @@ export function SiteChrome({ children }: { children: ReactNode }) {
             onClick={() => setMenuOpen(false)}
             aria-label="Bwindi Community Hospital home"
           >
-            <img
+            <ResponsiveImage
               src="/bch-assets/images/images-BCH-logo.png"
               alt="Bwindi Community Hospital"
-              width={259}
-              height={60}
+              sizes="140px"
+              priority
               className="h-7 w-auto sm:h-8"
             />
           </Link>
@@ -263,11 +264,10 @@ export function SiteChrome({ children }: { children: ReactNode }) {
         <div className="site-container grid gap-12 lg:grid-cols-[1.15fr_2fr]">
           <div>
             <span className="inline-flex rounded-2xl bg-white px-3 py-2">
-              <img
+              <ResponsiveImage
                 src="/bch-assets/images/images-BCH-logo.png"
                 alt="Bwindi Community Hospital"
-                width={259}
-                height={60}
+                sizes="160px"
                 className="h-9 w-auto"
               />
             </span>

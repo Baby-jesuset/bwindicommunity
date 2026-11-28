@@ -1,15 +1,24 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 import { ArrowUpRight, FileText } from "lucide-react";
-import pages from "@/lib/bch-original-pages.json";
+import media from "@/lib/bch-source-media.json";
 import { pageTitle } from "@/lib/bch-display-titles";
-import { imageUrlForSource, isSiteBanner, parseNewsEntries } from "@/lib/bch-news-entries";
+import { isSiteBanner, parseNewsEntries } from "@/lib/bch-news-entries";
 import { Button } from "@/components/ui/button";
 import { BackLink, Kicker } from "@/components/page-sections";
 import { NewsRows } from "@/components/news-rows";
+import { ResponsiveImage } from "@/components/responsive-image";
+import { detailImageUrl } from "@/lib/image-meta";
+
+/** Map an archived source URL to the local copy that was published with it. */
+function imageUrlForSource(source: string) {
+  return media.find((item) => item.source === source)?.url ?? null;
+}
 
 export const Route = createFileRoute("/information/$slug")({
-  loader: ({ params }) => {
+  loader: async ({ params }) => {
+    // The 325 KB archive only ships when an article is actually opened.
+    const { default: pages } = await import("@/lib/bch-original-pages.json");
     const page = pages.find((item) => item.slug === params.slug);
     if (!page) throw notFound();
     return { ...page, title: pageTitle(page) };
@@ -214,13 +223,14 @@ function PhotoBlock({ title, photos }: { title: string; photos: string[] }) {
         {photos.map((src, index) => (
           <a
             key={src}
-            href={src}
+            href={detailImageUrl(src)}
             target="_blank"
             rel="noreferrer"
             className="group block overflow-hidden rounded-xl border border-border bg-secondary"
           >
-            <img
+            <ResponsiveImage
               src={src}
+              sizes="(min-width: 640px) 180px, 33vw"
               alt={`${title} — photograph ${index + 1}`}
               loading="lazy"
               className="aspect-square w-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -234,9 +244,11 @@ function PhotoBlock({ title, photos }: { title: string; photos: string[] }) {
   return (
     <div className={`mb-9 grid max-w-3xl gap-4 ${photos.length > 1 ? "sm:grid-cols-2" : ""}`}>
       {photos.map((src, index) => (
-        <img
+        <ResponsiveImage
           key={src}
           src={src}
+          sizes="(min-width: 640px) 50vw, 100vw"
+          priority={index === 0}
           alt={`${title} — photograph ${index + 1}`}
           loading={index === 0 ? "eager" : "lazy"}
           className="aspect-[4/3] w-full rounded-2xl border border-border bg-secondary object-cover"

@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { ArrowUpRight, FileText } from "lucide-react";
-import pages from "@/lib/bch-original-pages.json";
+import pages from "@/lib/bch-archive-index.json";
 import { pageTitle } from "@/lib/bch-display-titles";
 
 export function PublishedContentLinks({

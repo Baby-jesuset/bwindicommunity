@@ -1,5 +1,4 @@
-import media from "@/lib/bch-source-media.json";
-import pages from "@/lib/bch-original-pages.json";
+import archiveIndex from "@/lib/bch-archive-index.json";
 
 /**
  * The generic slider banner that BCH used as the header image for almost every
@@ -12,15 +11,9 @@ export function isSiteBanner(source: string) {
   return source === SITE_BANNER_IMAGE || source.includes("slider_images/default_image");
 }
 
-export function imageUrlForSource(source: string) {
-  return media.find((item) => item.source === source)?.url ?? null;
-}
-
 /** First real photograph published on an archive page, if it has one. */
 export function firstPhotoForSlug(slug: string) {
-  const page = pages.find((item) => item.slug === slug);
-  const source = page?.imageSources.find((item) => !isSiteBanner(item));
-  return source ? imageUrlForSource(source) : null;
+  return archiveIndex.find((item) => item.slug === slug)?.firstPhoto ?? null;
 }
 
 export type ArchiveNewsEntry = {

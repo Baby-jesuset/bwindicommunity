@@ -2,6 +2,7 @@ import { PublishedContentLinks } from "@/components/published-content-links";
 import { createFileRoute } from "@tanstack/react-router";
 import { Ambulance, Home, ShieldCheck, Smartphone, Sprout, Users } from "lucide-react";
 import { CTA, Kicker, PageHero, Section } from "@/components/page-sections";
+import { ResponsiveImage } from "@/components/responsive-image";
 import { bchImages } from "@/lib/bch-images";
 
 export const Route = createFileRoute("/community-health")({
@@ -79,10 +80,9 @@ function Page() {
       <Section>
         <div className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-14">
           <div className="overflow-hidden rounded-[2rem] border-[8px] border-white shadow-[0_30px_60px_-46px_rgba(21,61,49,0.6)]">
-            <img
+            <ResponsiveImage
               src={bchImages.communityOutreach}
-              width={1200}
-              height={800}
+              sizes="(min-width: 1024px) 50vw, 100vw"
               alt="BCH community outreach"
               className="aspect-[3/2] w-full object-cover"
             />

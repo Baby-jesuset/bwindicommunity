@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { ArrowUpRight, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Kicker, PageHero, Section } from "@/components/page-sections";
+import { ResponsiveImage } from "@/components/responsive-image";
 import { bchImages } from "@/lib/bch-images";
 
 const featuredImages = [
@@ -107,10 +108,10 @@ function Page() {
               aria-label={`Open photograph: ${x.alt}`}
               className="group relative overflow-hidden rounded-2xl border border-border bg-card p-0 text-left"
             >
-              <img
+              <ResponsiveImage
                 src={x.src}
                 alt={x.alt}
-                loading="lazy"
+                sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                 className="aspect-[4/3] w-full object-cover transition duration-500 group-hover:scale-105"
               />
               <span className="absolute inset-x-0 bottom-0 flex items-center justify-between gap-2 bg-[linear-gradient(0deg,oklch(0.315_0.045_163/0.85),transparent)] px-4 pb-3 pt-8 text-xs font-bold text-white">
@@ -153,9 +154,11 @@ function Page() {
             <X />
           </Button>
           <figure className="max-w-5xl">
-            <img
+            <ResponsiveImage
               src={selected.src}
               alt={selected.alt}
+              sizes="(min-width: 1024px) 1024px, 100vw"
+              priority
               className="max-h-[80vh] w-auto max-w-full rounded-2xl object-contain"
             />
             <figcaption className="mt-4 text-center text-sm font-semibold text-white/80">

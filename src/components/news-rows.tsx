@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { ArrowUpRight, Newspaper } from "lucide-react";
+import { ResponsiveImage } from "@/components/responsive-image";
 
 export type NewsStory = {
   title: string;
@@ -30,10 +31,10 @@ export function NewsRows({ stories }: { stories: NewsStory[] }) {
             className="block overflow-hidden rounded-xl border border-border bg-secondary"
           >
             {story.image ? (
-              <img
+              <ResponsiveImage
                 src={story.image}
                 alt=""
-                loading="lazy"
+                sizes="(min-width: 640px) 176px, 96px"
                 className="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
               />
             ) : (

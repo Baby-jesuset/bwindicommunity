@@ -21,8 +21,27 @@ export default defineConfig(async ({ command, mode }) => {
     const { nitro } = await import("nitro/vite");
     // Vercel sets VERCEL=1 during builds and reads the Build Output API
     // directory; everywhere else the bundle targets Cloudflare.
-    const preset = process.env["VERCEL"] ? "vercel" : "cloudflare-module";
-    plugins.push(nitro({ preset }));
+    const preset =
+      process.env["NITRO_PRESET"] ?? (process.env["VERCEL"] ? "vercel" : "cloudflare-module");
+    plugins.push(
+      nitro({
+        preset,
+        routeRules: {
+          "/images/opt/**": {
+            headers: { "cache-control": "public, max-age=31536000, immutable" },
+          },
+          "/fonts/**": {
+            headers: { "cache-control": "public, max-age=31536000, immutable" },
+          },
+          "/images/bch/**": {
+            headers: { "cache-control": "public, max-age=604800, stale-while-revalidate=86400" },
+          },
+          "/bch-assets/**": {
+            headers: { "cache-control": "public, max-age=604800, stale-while-revalidate=86400" },
+          },
+        },
+      }),
+    );
   }
 
   plugins.push(viteReact());

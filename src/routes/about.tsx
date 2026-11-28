@@ -2,6 +2,7 @@ import { PublishedContentLinks } from "@/components/published-content-links";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowUpRight } from "lucide-react";
 import { CTA, Kicker, PageHero, Section } from "@/components/page-sections";
+import { ResponsiveImage } from "@/components/responsive-image";
 import { Button } from "@/components/ui/button";
 import { bchImages } from "@/lib/bch-images";
 
@@ -58,10 +59,9 @@ function About() {
               className="absolute -left-4 -top-4 hidden size-24 rounded-full border-[10px] border-accent/60 sm:block"
             />
             <div className="overflow-hidden rounded-[2rem] border-[8px] border-white shadow-[0_30px_60px_-40px_rgba(21,61,49,0.6)]">
-              <img
+              <ResponsiveImage
                 src={bchImages.communityOutreach}
-                width={1200}
-                height={800}
+                sizes="(min-width: 1024px) 50vw, 100vw"
                 alt="BCH community outreach"
                 className="aspect-[5/4] w-full object-cover lg:aspect-[10/11]"
               />
@@ -119,9 +119,10 @@ function About() {
 
         <div className="mt-10 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
           <figure className="overflow-hidden rounded-2xl border border-border bg-card p-3">
-            <img
+            <ResponsiveImage
               src={bchImages.coreValues}
               alt="Bwindi Community Hospital core values"
+              sizes="(min-width: 1024px) 45vw, 100vw"
               className="w-full rounded-xl"
             />
             <figcaption className="px-2 pb-1 pt-3 text-xs text-muted-foreground">
@@ -129,9 +130,10 @@ function About() {
             </figcaption>
           </figure>
           <figure className="overflow-hidden rounded-2xl border border-border bg-card p-3">
-            <img
+            <ResponsiveImage
               src={bchImages.organisationStructure}
               alt="Bwindi Community Hospital organisation structure"
+              sizes="(min-width: 1024px) 40vw, 100vw"
               className="w-full rounded-xl"
             />
             <figcaption className="px-2 pb-1 pt-3 text-xs text-muted-foreground">

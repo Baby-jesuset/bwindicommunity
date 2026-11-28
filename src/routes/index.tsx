@@ -18,9 +18,13 @@ import {
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Kicker } from "@/components/page-sections";
+import { ResponsiveImage } from "@/components/responsive-image";
+import { imageEntry } from "@/lib/image-meta";
 import { contact, services } from "@/lib/bch-content";
 import { bchImages } from "@/lib/bch-images";
 import { newsletters, reports } from "@/lib/bch-published-resources";
+
+const heroImage = imageEntry("/images/bch/hero-building.jpg");
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -48,7 +52,20 @@ export const Route = createFileRoute("/")({
         content: `https://www.bwindihospital.com${bchImages.hospitalGallery}`,
       },
     ],
-    links: [{ rel: "canonical", href: "https://www.bwindihospital.com/" }],
+    links: [
+      { rel: "canonical", href: "https://www.bwindihospital.com/" },
+      ...(heroImage?.avif
+        ? [
+            {
+              rel: "preload" as const,
+              as: "image" as const,
+              href: heroImage.avifDetail ?? heroImage.detail,
+              imageSrcSet: heroImage.avif,
+              imageSizes: "100vw",
+            },
+          ]
+        : []),
+    ],
   }),
   component: Home,
 });
@@ -221,11 +238,10 @@ function Home() {
     <>
       {/* Hero */}
       <section className="relative isolate overflow-hidden bg-foreground text-background">
-        <img
+        <ResponsiveImage
           src="/images/bch/hero-building.jpg"
-          width={1820}
-          height={720}
-          fetchPriority="high"
+          sizes="100vw"
+          priority
           alt=""
           aria-hidden
           className="absolute inset-0 h-full w-full object-cover object-[45%_50%]"
@@ -342,19 +358,17 @@ function Home() {
               <Sprout className="size-9 text-accent" aria-hidden />
             </div>
             <div className="overflow-hidden rounded-[2rem] border-[8px] border-white shadow-[0_30px_60px_-40px_rgba(21,61,49,0.6)]">
-              <img
+              <ResponsiveImage
                 src={bchImages.hospitalGallery}
-                loading="lazy"
-                width={2000}
-                height={1333}
+                sizes="(min-width: 1024px) 50vw, (min-width: 488px) 448px, calc(100vw - 40px)"
                 alt="Community members with a health worker during a BCH outreach visit"
                 className="aspect-[5/4] w-full object-cover object-[50%_58%] sm:aspect-[16/11] lg:aspect-[10/11]"
               />
             </div>
             <div className="absolute -bottom-6 -left-2 w-32 overflow-hidden rounded-2xl border-4 border-white shadow-lg sm:-left-6 sm:w-40">
-              <img
+              <ResponsiveImage
                 src={bchImages.communityOutreach}
-                loading="lazy"
+                sizes="160px"
                 alt="A health worker measuring a child’s arm"
                 className="aspect-square w-full object-cover"
               />
@@ -432,9 +446,9 @@ function Home() {
                 className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-[0_24px_44px_-38px_rgba(21,61,49,0.5)]"
               >
                 <div className="relative overflow-hidden">
-                  <img
+                  <ResponsiveImage
                     src={campaign.image}
-                    loading="lazy"
+                    sizes="(min-width: 768px) 33vw, 100vw"
                     alt=""
                     className="aspect-[16/10] w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
                   />
@@ -649,8 +663,9 @@ function Home() {
           <div className="overflow-hidden rounded-[2rem] bg-foreground text-background">
             <div className="grid lg:grid-cols-[1.05fr_0.95fr]">
               <div className="relative p-7 sm:p-10 lg:p-12">
-                <img
+                <ResponsiveImage
                   src={bchImages.hospitalGallery}
+                  sizes="(min-width: 1024px) 55vw, 100vw"
                   alt=""
                   aria-hidden
                   className="absolute inset-0 h-full w-full object-cover opacity-20"
@@ -753,9 +768,9 @@ function Home() {
                   params={{ slug: item.slug }}
                   className="block overflow-hidden rounded-2xl"
                 >
-                  <img
+                  <ResponsiveImage
                     src={item.image}
-                    loading="lazy"
+                    sizes="(min-width: 768px) 33vw, 100vw"
                     alt=""
                     className="aspect-[16/10] w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
                   />
